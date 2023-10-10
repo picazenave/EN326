@@ -18,6 +18,9 @@
         "string": "cpp",
         "string_view": "cpp",
         "mstd_atomic": "cpp",
-        "mstd_iterator": "cpp"
+        "mstd_iterator": "cpp",
+        "cmath": "cpp",
+        "mutex": "cpp",
+        "mstd_mutex": "cpp"
     }
 }

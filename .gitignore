@@ -5,3 +5,4 @@ projectfiles
 BUILD/
 BUILD/ZEST_CORE_FMLR-72/GCC_ARM/.profile-ld
 *.o
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/.profile-ld

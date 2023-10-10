@@ -9,6 +9,7 @@
             "intelliSenseMode": "gcc-x64",
             "includePath": [
                 "${workspaceFolder}/*",
+                "${workspaceFolder}/**",
                 "${workspaceFolder}/mbed-os/*",
                 "${workspaceFolder}/mbed-os/cmsis/*",
                 "${workspaceFolder}/mbed-os/cmsis/CMSIS_5/*",

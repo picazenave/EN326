@@ -1,5 +1,5 @@
 #include "mbed.h"
-
+#include "SCD4.hpp"
 // Blinking rate in milliseconds
 #define BLINKING_RATE 5500ms
 
@@ -47,11 +47,13 @@ int main()
         char start_command[2] = {0x21, 0xb1};
         char read_command[2] = {0xec, 0x05};
 
+        i2c.lock();
         i2c.write(addr, start_command, 2);
         ThisThread::sleep_for(BLINKING_RATE);
         i2c.write(addr, read_command, 2);
         char value[READ_BYTE_LEN] = {0};
         i2c.read(addr, value, READ_BYTE_LEN);
+        i2c.unlock();
 
         printf("i2c return : 0x%02X", value[0]);
         for (int i = 1; i < READ_BYTE_LEN; i++)
@@ -60,6 +62,17 @@ int main()
         uint16_t CO2 = 0;
         float temperature = 0.0;
         float RH = 0.0;
+        decode_SCD4_read(value, &CO2, &temperature, &RH);
+
+        printf(" -- CO2 ppm:%d|temp:%f °C|RH:%f %%\n", CO2,temperature,RH);
+
+        SCD4 scd4(P1_I2C_SDA, P1_I2C_SCL);
+        scd4.sendCommand((SCD4::Command)0x21b1);
+        scd4.read((SCD4::Command)0xec05,READ_BYTE_LEN,value);
+        printf("aaaaaaaaaaaaaa i2c return : 0x%02X", value[0]);
+        for (int i = 1; i < READ_BYTE_LEN; i++)
+            printf("|0x%02X", value[i]);
+        printf(" -- counter:%d", counter);
         decode_SCD4_read(value, &CO2, &temperature, &RH);
 
         printf(" -- CO2 ppm:%d|temp:%f °C|RH:%f %%\n", CO2,temperature,RH);

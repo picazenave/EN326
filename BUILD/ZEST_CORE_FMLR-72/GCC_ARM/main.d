@@ -289,4 +289,5 @@ BUILD\ZEST_CORE_FMLR-72\GCC_ARM\main.o: main.cpp \
  mbed-os/platform/include/platform/ScopedRamExecutionLock.h \
  mbed-os/platform/include/platform/mbed_stats.h \
  mbed-os/platform/include/platform/Stream.h \
- mbed-os/platform/include/platform/FileLike.h
+ mbed-os/platform/include/platform/FileLike.h SCD4/SCD4.hpp \
+ mbed-os/drivers/include/drivers/MbedCRC.h
