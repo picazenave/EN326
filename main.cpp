@@ -36,6 +36,8 @@ void decode_SCD4_read(char *data, uint16_t *CO2ppm, float *temp, float *RH)
 
 int main()
 {
+    for (int i = 1; i < 50; i++)
+            printf("\n");
     while (true)
     {
         // TODO lock bus
@@ -56,10 +58,11 @@ int main()
             printf("|0x%02X", value[i]);
         printf(" -- counter:%d", counter);
         uint16_t CO2 = 0;
-        float temp = 0.0;
+        float temperature = 0.0;
         float RH = 0.0;
-        decode_SCD4_read(value, &CO2, &temp, &RH);
-        printf(" -- CO2 ppm:%d|temp:%f°C|RH:%f%%\n", CO2,temp,RH);
+        decode_SCD4_read(value, &CO2, &temperature, &RH);
+
+        printf(" -- CO2 ppm:%d|temp:%f °C|RH:%f %%\n", CO2,temperature,RH);
 
         counter++;
         // led.write(button.read());
