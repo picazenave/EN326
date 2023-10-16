@@ -71,6 +71,7 @@ public:
      */
     ErrorType start_periodic_measurement();//CLEMENT
 
+    ErrorType start_low_power_periodic_measurement();//CLEMENT
     /*!
      * \brief Send command to start periodic measurement
      *
@@ -147,7 +148,12 @@ public:
     ErrorType measure_single_shot();//CLEMENT
 
 
-    enum class Command : uint16_t
+private:
+    I2C _bus;
+    char computeCRC(char *data, uint8_t len);
+    bool checkCRC(char *data, uint8_t len);
+
+        enum class Command : uint16_t
     {
         StartPeriodicMeasurement = 0x21b1,
         ReadMeasurement = 0xec05,
@@ -202,25 +208,6 @@ public:
      * \return Ok on success, the reason of failure otherwise
      */
     ErrorType write(Command cmd, uint8_t len, char *val_in);
-    /*!
-     * \brief Read data from the sensor
-     *
-     * \param cmd command to send and fetch data
-     * \param val_in pointer to the data to write
-     * \param val_out pointer to store read data
-     * \param exec_time time to wait between acknowledgement of the write command and the start of
-     *                  the read transaction
-     *
-     * \return Ok on success, the reason of failure otherwise
-     */
-    ErrorType send_and_fetch( // perform_forced_calibration
-        Command cmd, uint16_t *val_in, uint16_t *val_out, Clock::duration_u32 exec_time = 1ms);
-
-private:
-    I2C _bus;
-    char computeCRC(char *data, uint8_t len);
-    bool checkCRC(char *data, uint8_t len);
-
     
 };
 

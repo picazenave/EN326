@@ -37,10 +37,10 @@ SCD4::ErrorType SCD4::sendCommand(Command cmd)
 {
     char command[2] = {(char)(((uint16_t)cmd & 0xFF00) >> 8), (char)((uint16_t)0xb1 & 0x00FF)};
     _bus.lock();
-    int r=_bus.write(SCD4X_ADDR, command, 2);
+    int r = _bus.write(SCD4X_ADDR, command, 2);
     _bus.unlock();
 
-    return r==0?ErrorType::Ok:ErrorType::I2cError;
+    return r == 0 ? ErrorType::Ok : ErrorType::I2cError;
 }
 
 SCD4::ErrorType SCD4::read(
@@ -126,36 +126,36 @@ SCD4::ErrorType SCD4::get_data_ready_status()
 {
     ErrorType r;
     char value[3] = {0};
-    r = this->read(Command::GetDataReadyStatus, 2, value);
+    r = this->read(Command::GetDataReadyStatus, 3, value);
     if (r != ErrorType::Ok)
         return ErrorType::I2cError;
     int16_t enabled;
     BYTE_ARRAY_TO_U16(value, enabled);
-    if (enabled < (1 << 11))
+    printf("get_data_ready returns : %X\n",enabled);
+    if ((enabled & 0xFFF) == 0)
         return ErrorType::DataNotReady;
     else
         return ErrorType::Ok;
 } // PIERRE
 
-
 SCD4::ErrorType SCD4::start_periodic_measurement()
 {
-    return this->sendCommand(Command::StartPeriodicMeasurement); //FIXME
+    return this->sendCommand(Command::StartPeriodicMeasurement);
 }
 
 SCD4::ErrorType SCD4::stop_periodic_measurement()
 {
-    return this->sendCommand(Command::StopPeriodicMeasurement); //FIXME
+    return this->sendCommand(Command::StopPeriodicMeasurement);
 }
 
 SCD4::ErrorType SCD4::get_temperature_offset(float *t)
 {
     SCD4::ErrorType error;
     char value_offset[3] = {0};
-    error = this->read(Command::GetTemperatureOffset,3,value_offset);
+    error = this->read(Command::GetTemperatureOffset, 3, value_offset);
     float word_0 = (value_offset[0] << 8) + value_offset[1];
-    //printf("\n\nword[0] %x, word 1, %x\n\n", value_offset[0], value_offset[1]);
-    *t = (175 * word_0)/(float)(1 << 16);
+    // printf("\n\nword[0] %x, word 1, %x\n\n", value_offset[0], value_offset[1]);
+    *t = (175 * word_0) / (float)(1 << 16);
     return error;
 }
 
@@ -163,7 +163,7 @@ SCD4::ErrorType SCD4::get_sensor_altitude(uint16_t *alt)
 {
     SCD4::ErrorType error;
     char value_alt[3] = {0};
-    error = this->read(Command::GetSensorAltitude,3,value_alt);
+    error = this->read(Command::GetSensorAltitude, 3, value_alt);
     float word_0 = (value_alt[0] << 8) + value_alt[1];
     *alt = word_0;
     return error;
@@ -172,4 +172,8 @@ SCD4::ErrorType SCD4::get_sensor_altitude(uint16_t *alt)
 SCD4::ErrorType SCD4::measure_single_shot()
 {
     return this->sendCommand(Command::MeasureSingleShot);
+}
+
+SCD4::ErrorType SCD4::start_low_power_periodic_measurement(){
+    return this->sendCommand(Command::StartLowPowerPeriodicMeasurement);
 }

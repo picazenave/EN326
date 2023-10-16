@@ -19,7 +19,8 @@ DigitalIn button(BUTTON1);
 Thread led_thread;
 void led_thread_func()
 {
-    while (true) {
+    while (true)
+    {
         led = !led;
         ThisThread::sleep_for(300ms);
     }
@@ -36,46 +37,35 @@ int main()
 {
     led_thread.start(led_thread_func);
 
-    for (int i = 1; i < 50; i++)
-            printf("\n");
+    for (int i = 1; i < 10; i++)
+        printf("a\n");
+
+    scd4x_measurement_t data;
+    SCD4::ErrorType error;
+    SCD4 scd4(P1_I2C_SDA, P1_I2C_SCL);
+    error = scd4.start_periodic_measurement();
+    ThisThread::sleep_for(BLINKING_RATE);
+    error = scd4.read_measurement(&data);
+    // error = scd4.stop_periodic_measurement();
+
+    // scd4.start_low_power_periodic_measurement();
     while (true)
     {
-        // TODO lock bus
-        // TODO check CRC
-        // TODO U16_TO_BYTE_ARRAY pour les commandes
-        // TODO BYTE_TO_U16
-        char start_command[2] = {0x21, 0xb1};
-        char read_command[2] = {0xec, 0x05};
-
-        i2c.lock();
-        i2c.write(addr, start_command, 2);
+        // int local_counter=0;
+        // while (scd4.get_data_ready_status() == SCD4::ErrorType::DataNotReady)
+        // {
+        //     printf("wait: %ds\n",local_counter);
+        //     ThisThread::sleep_for(1000ms);
+        //     local_counter++;
+        // }
         ThisThread::sleep_for(BLINKING_RATE);
-        i2c.write(addr, read_command, 2);
-        char value[READ_BYTE_LEN] = {0};
-        i2c.read(addr, value, READ_BYTE_LEN);
-        i2c.unlock();
-
-        printf("i2c return : 0x%02X", value[0]);
-        for (int i = 1; i < READ_BYTE_LEN; i++)
-            printf("|0x%02X", value[i]);
-        printf(" -- counter:%d", counter);
-        uint16_t CO2 = 0;
-        float temperature = 0.0;
-        float RH = 0.0;
-        decode_SCD4_read(value, &CO2, &temperature, &RH);
-
-        printf(" -- CO2 ppm:%d|temp:%f °C|RH:%f %%\n", CO2,temperature,RH);
-        ThisThread::sleep_for(BLINKING_RATE);
-        scd4x_measurement_t data;
-        SCD4::ErrorType error;
-        SCD4 scd4(P1_I2C_SDA, P1_I2C_SCL);
-        error=scd4.read_measurement(&data);
-        if(error!=SCD4::ErrorType::Ok)
+        error = scd4.read_measurement(&data);
+        if (error != SCD4::ErrorType::Ok)
         {
-            printf("ERRRRRROR I2C\n");
+            printf("ERRRRRROR read measurement I2C\n");
         }
         printf(" -- counter:%d", counter);
-        printf(" -- CO2 ppm:%d|temp:%f °C|RH:%f %%\n", data.co2,data.temperature,data.rh);
+        printf(" -- CO2 ppm:%d|temp:%f °C|RH:%f %%\n", data.co2, data.temperature, data.rh);
 
         counter++;
         // led.write(button.read());
