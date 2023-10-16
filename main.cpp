@@ -16,6 +16,15 @@ DigitalIn button(BUTTON1);
 #error BUTTON1 not defined
 #endif
 
+Thread led_thread;
+void led_thread_func()
+{
+    while (true) {
+        led = !led;
+        ThisThread::sleep_for(300ms);
+    }
+}
+
 #define READ_BYTE_LEN 9
 
 I2C i2c(P1_I2C_SDA, P1_I2C_SCL);
@@ -23,19 +32,10 @@ const char addr = (0x62 << 1);
 
 int counter = 0;
 
-void decode_SCD4_read(char *data, uint16_t *CO2ppm, float *temp, float *RH)
-{
-    *CO2ppm = (data[0] << 8) + data[1];
-    uint16_t a = (data[3] << 8) + data[4];
-    // FIXME offset
-    int offset = -45;
-    *temp = (float)offset + (float)175 * (a / (float)(1 << 16));
-    a = (data[6] << 8) + data[7];
-    *RH = (float)100 * (a / (float)(1 << 16));
-}
-
 int main()
 {
+    led_thread.start(led_thread_func);
+
     for (int i = 1; i < 50; i++)
             printf("\n");
     while (true)
@@ -65,17 +65,17 @@ int main()
         decode_SCD4_read(value, &CO2, &temperature, &RH);
 
         printf(" -- CO2 ppm:%d|temp:%f °C|RH:%f %%\n", CO2,temperature,RH);
-
+        ThisThread::sleep_for(BLINKING_RATE);
+        scd4x_measurement_t data;
+        SCD4::ErrorType error;
         SCD4 scd4(P1_I2C_SDA, P1_I2C_SCL);
-        scd4.sendCommand((SCD4::Command)0x21b1);
-        scd4.read((SCD4::Command)0xec05,READ_BYTE_LEN,value);
-        printf("aaaaaaaaaaaaaa i2c return : 0x%02X", value[0]);
-        for (int i = 1; i < READ_BYTE_LEN; i++)
-            printf("|0x%02X", value[i]);
+        error=scd4.read_measurement(&data);
+        if(error!=SCD4::ErrorType::Ok)
+        {
+            printf("ERRRRRROR I2C\n");
+        }
         printf(" -- counter:%d", counter);
-        decode_SCD4_read(value, &CO2, &temperature, &RH);
-
-        printf(" -- CO2 ppm:%d|temp:%f °C|RH:%f %%\n", CO2,temperature,RH);
+        printf(" -- CO2 ppm:%d|temp:%f °C|RH:%f %%\n", data.co2,data.temperature,data.rh);
 
         counter++;
         // led.write(button.read());

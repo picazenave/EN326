@@ -69,7 +69,7 @@ public:
      *
      * \return Ok on success, the reason of failure otherwise
      */
-    ErrorType start_periodic_measurement();
+    ErrorType start_periodic_measurement();//CLEMENT
 
     /*!
      * \brief Send command to start periodic measurement
@@ -78,14 +78,14 @@ public:
      *
      * \return Ok on success, the reason of failure otherwise
      */
-    ErrorType read_measurement(scd4x_measurement_t *data);
+    ErrorType read_measurement(scd4x_measurement_t *data);//PIERRE
 
     /*!
      * \brief Send command to stop periodic measurement
      *
      * \return Ok on success, the reason of failure otherwise
      */
-    ErrorType stop_periodic_measurement();
+    ErrorType stop_periodic_measurement();//CLEMENT
 
     /*!
      * \brief Set temperature offset
@@ -94,7 +94,7 @@ public:
      *
      * \return Ok on success, the reason of failure otherwise
      */
-    ErrorType set_temperature_offset(float t);
+    ErrorType set_temperature_offset(float t);//PIERRE
 
     /*!
      * \brief Get temperature offset
@@ -103,7 +103,7 @@ public:
      *
      * \return Ok on success, the reason of failure otherwise
      */
-    ErrorType get_temperature_offset(float *t);
+    ErrorType get_temperature_offset(float *t);//CLEMENT
 
     /*!
      * \brief Set sensor altitude
@@ -112,7 +112,7 @@ public:
      *
      * \return Ok on success, the reason of failure otherwise
      */
-    ErrorType set_sensor_altitude(uint16_t alt);
+    ErrorType set_sensor_altitude(uint16_t alt);//PIERRE
 
     /*!
      * \brief Get sensor altitude
@@ -121,7 +121,7 @@ public:
      *
      * \return Ok on success, the reason of failure otherwise
      */
-    ErrorType get_sensor_altitude(uint16_t *alt);
+    ErrorType get_sensor_altitude(uint16_t *alt);//CLEMENT
 
     /*!
      * \brief Set ambient pressure
@@ -130,101 +130,21 @@ public:
      *
      * \return Ok on success, the reason of failure otherwise
      */
-    ErrorType set_ambient_pressure(uint16_t hpa);
-
-    /*!
-     * \brief Perform a forced calibration
-     *
-     * \param target_co2 CO2 reference for the calibration in ppm
-     * \param frc_correction pointer to data to store read correction in ppm
-     *
-     * \return Ok on success, the reason of failure otherwise
-     */
-    ErrorType perform_forced_calibration(uint16_t target_co2, uint16_t *frc_correction);
-    // TODO send_and_fetch
-
-    /*!
-     * \brief Enable or disable automatic calibration
-     *
-     * \param enable true to enable automatic calibration, false to disable it
-     *
-     * \return Ok on success, the reason of failure otherwise
-     */
-    ErrorType set_automatic_calibration_enabled(bool enable);
-
-    /*!
-     * \brief Get status of automatic calibration
-     *
-     * \param enable pointer to data to store read status
-     *
-     * \return Ok on success, the reason of failure otherwise
-     */
-    ErrorType get_automatic_calibration_enabled(bool *enable);
-
-    /*!
-     * \brief Start low power periodic measurement
-     *
-     * \return Ok on success, the reason of failure otherwise
-     */
-    ErrorType start_low_power_periodic_measurement();
+    ErrorType set_ambient_pressure(uint16_t hpa);//PIERRE
 
     /*!
      * \brief Read data ready status
      *
      * \return Ok if data ready, DataNotReady if data not ready, the reason of failure otherwise
      */
-    ErrorType get_data_ready_status();
-
-    /*!
-     * \brief Save settings to internal EEPROM
-     *
-     * \return Ok on success, the reason of failure otherwise
-     */
-    ErrorType persist_settings();
-
-    /*!
-     * \brief Get status of automatic calibration
-     *
-     * \param serial buffer to store read serial number
-     *
-     * \return Ok on success, the reason of failure otherwise
-     */
-    ErrorType get_serial_number(uint16_t serial[3]);
-
-    /*!
-     * \brief Perform a self test
-     *
-     * \return Ok on success, the reason of failure otherwise
-     */
-    ErrorType perform_self_test();
-
-    /*!
-     * \brief Perform a factory reset
-     *
-     * \return Ok on success, the reason of failure otherwise
-     */
-    ErrorType perfom_factory_reset();
-
-    /*!
-     * \brief Reinitialize the sensor by realoading settings from the EEPROM
-     *
-     * \return Ok on success, the reason of failure otherwise
-     */
-    ErrorType reinit();
-
-    /*!
-     * \brief Start a single shot measurement of temperature and humidity
-     *
-     * \return Ok on success, the reason of failure otherwise
-     */
-    ErrorType measure_single_shot_rht_only();
+    ErrorType get_data_ready_status();//PIERRE
 
     /*!
      * \brief Start a single shot measurement of CO2 level, temperature and humidity
      *
      * \return Ok on success, the reason of failure otherwise
      */
-    ErrorType measure_single_shot();
+    ErrorType measure_single_shot();//CLEMENT
 
 
     enum class Command : uint16_t
@@ -258,7 +178,7 @@ public:
      *
      * \return Ok on success, the reason of failure otherwise
      */
-    int sendCommand(Command cmd);
+    ErrorType sendCommand(Command cmd);
     /*!
      * \brief Read data from the sensor
      *
