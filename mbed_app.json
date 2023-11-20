@@ -1,10 +1,41 @@
 {
+    "macros": [
+        "NDEBUG=0"
+    ],
+    "config": {
+        "main_stack_size": {
+            "value": 2048
+        }
+    },
     "target_overrides": {
         "*": {
             "target.printf_lib": "minimal-printf",
             "platform.minimal-printf-enable-floating-point": true,
-            "platform.minimal-printf-set-floating-point-max-decimals": 6,
-            "platform.minimal-printf-enable-64-bit": false
+            "platform.minimal-printf-set-floating-point-max-decimals": 2,
+            "platform.minimal-printf-enable-64-bit": false,
+            "mbed-trace.enable": true,
+            "mbed-trace.max-level": "TRACE_LEVEL_DEBUG",
+            "lora.over-the-air-activation": true,
+            "lora.duty-cycle-on": true,
+            "lora.phy": "EU868",
+            "lora.device-eui": "{ 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }",
+            "lora.application-eui": "{ 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }",
+            "lora.application-key": "{ 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }",
+            "target.components_add": [
+                "SX1272"
+            ],
+            "lwip.ethernet-enabled": false,
+            "lwip.mbox-size": 1,
+            "lwip.mem-size": 256,
+            "lwip.num-netbuf": 1,
+            "lwip.socket-max": 1,
+            "rtos.main-thread-stack-size": 2048,
+            "rtos.thread-stack-size":2048,
+            "drivers.crc-table-size":0,
+            "platform.stdio-flush-at-exit":true,
+            "platform.stdio-minimal-console-only":true,
+            "platform.all-stats-enabled":true,
+            "platform.cpu-stats-enabled":false
         }
     }
 }

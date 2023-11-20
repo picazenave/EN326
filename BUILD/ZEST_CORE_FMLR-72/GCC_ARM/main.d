@@ -51,7 +51,6 @@ BUILD\ZEST_CORE_FMLR-72\GCC_ARM\main.o: main.cpp \
  mbed-os/connectivity/netsocket/include/netsocket/EthInterface.h \
  mbed-os/connectivity/netsocket/include/netsocket/WiFiInterface.h \
  mbed-os/connectivity/netsocket/include/netsocket/WiFiAccessPoint.h \
- mbed-os/connectivity/netsocket/include/netsocket/CellularInterface.h \
  mbed-os/connectivity/netsocket/include/netsocket/MeshInterface.h \
  mbed-os/connectivity/netsocket/include/netsocket/Socket.h \
  mbed-os/connectivity/netsocket/include/netsocket/UDPSocket.h \
@@ -290,4 +289,28 @@ BUILD\ZEST_CORE_FMLR-72\GCC_ARM\main.o: main.cpp \
  mbed-os/platform/include/platform/mbed_stats.h \
  mbed-os/platform/include/platform/Stream.h \
  mbed-os/platform/include/platform/FileLike.h SCD4/SCD4.hpp \
- mbed-os/drivers/include/drivers/MbedCRC.h
+ mbed-os/drivers/include/drivers/MbedCRC.h \
+ mbed-os/connectivity/drivers/lora/COMPONENT_SX1272/SX1272_LoRaRadio.h \
+ mbed-os/drivers/include/drivers/InterruptIn.h \
+ mbed-os/drivers/include/drivers/DigitalOut.h \
+ mbed-os/drivers/include/drivers/DigitalInOut.h \
+ mbed-os/drivers/include/drivers/SPI.h \
+ mbed-os/connectivity/lorawan/include/lorawan/LoRaRadio.h \
+ mbed-os/drivers/include/drivers/LowPowerTimeout.h \
+ mbed-os/connectivity/lorawan/include/lorawan/LoRaWANInterface.h \
+ mbed-os/connectivity/lorawan/include/lorawan/LoRaWANStack.h \
+ mbed-os/connectivity/lorawan/lorastack/mac/LoRaMac.h \
+ mbed-os/connectivity/lorawan/lorastack/phy/LoRaPHY.h \
+ mbed-os/connectivity/lorawan/system/LoRaWANTimer.h \
+ mbed-os/connectivity/lorawan/system/lorawan_data_structures.h \
+ mbed-os/connectivity/lorawan/include/lorawan/lorawan_types.h \
+ mbed-os/connectivity/lorawan/include/lorawan/LoRaRadio.h \
+ mbed-os/connectivity/lorawan/lorastack/phy/lora_phy_ds.h \
+ mbed-os/connectivity/lorawan/system/lorawan_data_structures.h \
+ mbed-os/connectivity/lorawan/lorastack/mac/LoRaMacChannelPlan.h \
+ mbed-os/connectivity/lorawan/lorastack/mac/LoRaMacCommand.h \
+ mbed-os/connectivity/lorawan/lorastack/mac/LoRaMacCrypto.h \
+ mbed-os/connectivity/mbedtls/include/mbedtls/cmac.h \
+ mbed-os/connectivity/lorawan/include/lorawan/LoRaRadio.h \
+ mbed-os/connectivity/lorawan/include/lorawan/lorawan_types.h \
+ mbed-os/connectivity/lorawan/system/lorawan_data_structures.h

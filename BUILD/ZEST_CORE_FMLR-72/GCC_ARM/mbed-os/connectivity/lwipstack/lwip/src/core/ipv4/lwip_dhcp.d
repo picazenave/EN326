@@ -73,34 +73,4 @@ BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\lwipstack\lwip\src\core\ipv
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/STM32Cube_FW/STM32L0xx_HAL_Driver/stm32l0xx_hal_wwdg.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/STM32Cube_FW/STM32L0xx_HAL_Driver/stm32l0xx_hal_pcd.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/STM32Cube_FW/STM32L0xx_HAL_Driver/stm32l0xx_ll_usb.h \
- mbed-os/targets/TARGET_STM/TARGET_STM32L0/TARGET_STM32L071xZ/cmsis_nvic.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/stats.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/mem.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/memp.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/priv/memp_std.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/priv/memp_priv.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/priv/mem_priv.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/udp.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/pbuf.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/err.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/netif.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/ip_addr.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/def.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/ip4_addr.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/ip6_addr.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/def.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/ip.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/ip4.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/prot/ip4.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/ip6.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/prot/ip.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/prot/udp.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/dhcp.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/autoip.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/dns.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/etharp.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/prot/ethernet.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/prot/ieee.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/prot/etharp.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/prot/dhcp.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/prot/iana.h
+ mbed-os/targets/TARGET_STM/TARGET_STM32L0/TARGET_STM32L071xZ/cmsis_nvic.h

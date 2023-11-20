@@ -48,7 +48,6 @@ BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\nanostack\mbed-mesh-api\sou
  mbed-os/connectivity/netsocket/include/netsocket/EthInterface.h \
  mbed-os/connectivity/netsocket/include/netsocket/WiFiInterface.h \
  mbed-os/connectivity/netsocket/include/netsocket/WiFiAccessPoint.h \
- mbed-os/connectivity/netsocket/include/netsocket/CellularInterface.h \
  mbed-os/connectivity/netsocket/include/netsocket/MeshInterface.h \
  mbed-os/connectivity/netsocket/include/netsocket/Socket.h \
  mbed-os/connectivity/netsocket/include/netsocket/UDPSocket.h \

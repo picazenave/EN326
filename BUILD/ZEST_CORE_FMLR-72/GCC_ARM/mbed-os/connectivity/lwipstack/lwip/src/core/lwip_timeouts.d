@@ -116,12 +116,7 @@ BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\lwipstack\lwip\src\core\lwi
  mbed-os/connectivity/lwipstack/lwip/src/include/lwip/tcpip.h \
  mbed-os/connectivity/lwipstack/lwip/src/include/lwip/ip4_frag.h \
  mbed-os/connectivity/lwipstack/lwip/src/include/lwip/etharp.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/prot/ethernet.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/prot/ieee.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/prot/etharp.h \
  mbed-os/connectivity/lwipstack/lwip/src/include/lwip/dhcp.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/udp.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/prot/udp.h \
  mbed-os/connectivity/lwipstack/lwip/src/include/lwip/autoip.h \
  mbed-os/connectivity/lwipstack/lwip/src/include/lwip/igmp.h \
  mbed-os/connectivity/lwipstack/lwip/src/include/lwip/dns.h \

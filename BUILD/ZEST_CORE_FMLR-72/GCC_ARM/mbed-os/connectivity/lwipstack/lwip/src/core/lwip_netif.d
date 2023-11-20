@@ -105,9 +105,6 @@ BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\lwipstack\lwip\src\core\lwi
  mbed-os/connectivity/lwipstack/lwip/src/include/lwip/snmp.h \
  mbed-os/connectivity/lwipstack/lwip/src/include/lwip/igmp.h \
  mbed-os/connectivity/lwipstack/lwip/src/include/lwip/etharp.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/prot/ethernet.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/prot/ieee.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/prot/etharp.h \
  mbed-os/connectivity/lwipstack/lwip/src/include/lwip/sys.h \
  mbed-os/connectivity/lwipstack/lwip-sys/arch/sys_arch.h \
  mbed-os/rtos/include/rtos/internal/mbed_rtos_storage.h \
@@ -121,4 +118,5 @@ BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\lwipstack\lwip\src\core\lwi
  mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Config/RTX_Config.h \
  mbed-os/cmsis/device/rtos/include/mbed_rtx_conf.h \
  mbed-os/connectivity/lwipstack/lwip/src/include/netif/ethernet.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/dhcp.h
+ mbed-os/connectivity/lwipstack/lwip/src/include/lwip/prot/ethernet.h \
+ mbed-os/connectivity/lwipstack/lwip/src/include/lwip/prot/ieee.h

@@ -107,8 +107,5 @@ BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\lwipstack\lwip\src\netif\lw
  mbed-os/connectivity/lwipstack/lwip/src/include/lwip/priv/memp_priv.h \
  mbed-os/connectivity/lwipstack/lwip/src/include/lwip/priv/mem_priv.h \
  mbed-os/connectivity/lwipstack/lwip/src/include/lwip/etharp.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/ip4.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/prot/ip4.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/prot/etharp.h \
  mbed-os/connectivity/lwipstack/lwip/src/include/lwip/ethip6.h \
  mbed-os/connectivity/lwipstack/lwip/src/include/lwip/snmp.h

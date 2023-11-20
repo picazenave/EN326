@@ -113,10 +113,9 @@ BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\lwipstack\source\LWIPInterf
  mbed-os/connectivity/lwipstack/lwip/src/include/lwip/prot/icmp.h \
  mbed-os/connectivity/lwipstack/lwip/src/include/netif/etharp.h \
  mbed-os/connectivity/lwipstack/lwip/src/include/lwip/etharp.h \
+ mbed-os/connectivity/lwipstack/lwip/src/include/netif/ethernet.h \
  mbed-os/connectivity/lwipstack/lwip/src/include/lwip/prot/ethernet.h \
  mbed-os/connectivity/lwipstack/lwip/src/include/lwip/prot/ieee.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/prot/etharp.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/netif/ethernet.h \
  mbed-os/connectivity/lwipstack/lwip/src/include/lwip/ethip6.h \
  mbed-os/connectivity/netsocket/include/netsocket/nsapi_types.h \
  mbed-os/connectivity/netsocket/include/netsocket/EMAC.h \
@@ -140,7 +139,6 @@ BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\lwipstack\source\LWIPInterf
  mbed-os/connectivity/netsocket/include/netsocket/EthInterface.h \
  mbed-os/connectivity/netsocket/include/netsocket/WiFiInterface.h \
  mbed-os/connectivity/netsocket/include/netsocket/WiFiAccessPoint.h \
- mbed-os/connectivity/netsocket/include/netsocket/CellularInterface.h \
  mbed-os/connectivity/netsocket/include/netsocket/MeshInterface.h \
  mbed-os/connectivity/netsocket/include/netsocket/Socket.h \
  mbed-os/connectivity/netsocket/include/netsocket/UDPSocket.h \
@@ -238,5 +236,4 @@ BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\lwipstack\source\LWIPInterf
  mbed-os/connectivity/netsocket/include/netsocket/L3IP.h \
  mbed-os/connectivity/netsocket/include/netsocket/PPP.h \
  mbed-os/connectivity/lwipstack/include/lwipstack/LWIPMemoryManager.h \
- mbed-os/connectivity/netsocket/include/netsocket/EMACMemoryManager.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/igmp.h
+ mbed-os/connectivity/netsocket/include/netsocket/EMACMemoryManager.h

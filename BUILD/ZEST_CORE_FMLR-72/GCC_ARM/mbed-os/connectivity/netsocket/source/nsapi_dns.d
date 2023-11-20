@@ -145,7 +145,6 @@ BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\netsocket\source\nsapi_dns.
  mbed-os/connectivity/netsocket/include/netsocket/EthInterface.h \
  mbed-os/connectivity/netsocket/include/netsocket/WiFiInterface.h \
  mbed-os/connectivity/netsocket/include/netsocket/WiFiAccessPoint.h \
- mbed-os/connectivity/netsocket/include/netsocket/CellularInterface.h \
  mbed-os/connectivity/netsocket/include/netsocket/MeshInterface.h \
  mbed-os/connectivity/netsocket/include/netsocket/TCPSocket.h \
  mbed-os/connectivity/netsocket/include/netsocket/TLSSocketWrapper.h \

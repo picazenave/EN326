@@ -1,0 +1,11 @@
+mbed-os/connectivity/cellular/*
+mbed-os/connectivity/nanostack/*
+mbed-os/connectivity/drivers/cellular/*
+mbed-os/features/net/*
+mbed-os/features/netsocket/*
+mbed-os/features/nvstore/*
+mbed-os/features/storage/*
+mbed-os/drivers/cellular/*
+mbed-os/drivers/wifi/*
+mbed-os/drivers/ble/*
+mbed-os/drivers/nfc/*

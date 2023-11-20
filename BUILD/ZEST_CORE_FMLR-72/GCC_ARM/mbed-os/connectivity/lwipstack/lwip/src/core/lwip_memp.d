@@ -125,9 +125,6 @@ BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\lwipstack\lwip\src\core\lwi
  mbed-os/connectivity/lwipstack/lwip/src/include/lwip/igmp.h \
  mbed-os/connectivity/lwipstack/lwip/src/include/lwip/priv/sockets_priv.h \
  mbed-os/connectivity/lwipstack/lwip/src/include/lwip/etharp.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/prot/ethernet.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/prot/ieee.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/prot/etharp.h \
  mbed-os/connectivity/lwipstack/lwip/src/include/lwip/netdb.h \
  mbed-os/connectivity/lwipstack/lwip/src/include/lwip/dns.h \
  mbed-os/connectivity/lwipstack/lwip/src/include/lwip/priv/nd6_priv.h \

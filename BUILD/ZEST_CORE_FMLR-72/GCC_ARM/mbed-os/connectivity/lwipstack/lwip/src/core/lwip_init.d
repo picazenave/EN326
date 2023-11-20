@@ -120,9 +120,6 @@ BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\lwipstack\lwip\src\core\lwi
  mbed-os/connectivity/lwipstack/lwip/src/include/lwip/dns.h \
  mbed-os/connectivity/lwipstack/lwip/src/include/lwip/timeouts.h \
  mbed-os/connectivity/lwipstack/lwip/src/include/lwip/etharp.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/prot/ethernet.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/prot/ieee.h \
- mbed-os/connectivity/lwipstack/lwip/src/include/lwip/prot/etharp.h \
  mbed-os/connectivity/lwipstack/lwip/src/include/lwip/nd6.h \
  mbed-os/connectivity/lwipstack/lwip/src/include/lwip/mld6.h \
  mbed-os/connectivity/lwipstack/lwip/src/include/lwip/api.h \
