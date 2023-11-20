@@ -18,9 +18,9 @@
             "lora.over-the-air-activation": true,
             "lora.duty-cycle-on": true,
             "lora.phy": "EU868",
-            "lora.device-eui": "{ 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }",
-            "lora.application-eui": "{ 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }",
-            "lora.application-key": "{ 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }",
+            "lora.device-eui": "{ 0x9a, 0x9e, 0x4b, 0x76, 0xed, 0xbe, 0x71, 0x27 }",
+            "lora.application-eui": "{ 0X10, 0xCE, 0x45, 0xFF, 0xFE, 0x00, 0x8C, 0x7E }",
+            "lora.application-key": "{0x50,0x03,0x79,0xf8,0x82,0x92,0x11,0x88,0xcc,0x6d,0x5b,0x46,0x50,0x9b,0xce,0xe8}",
             "target.components_add": [
                 "SX1272"
             ],
@@ -30,12 +30,9 @@
             "lwip.num-netbuf": 1,
             "lwip.socket-max": 1,
             "rtos.main-thread-stack-size": 2048,
-            "rtos.thread-stack-size":2048,
-            "drivers.crc-table-size":0,
+            "rtos.thread-stack-size":1024,
             "platform.stdio-flush-at-exit":true,
-            "platform.stdio-minimal-console-only":true,
-            "platform.all-stats-enabled":true,
-            "platform.cpu-stats-enabled":false
+            "target.c_lib": "small"
         }
     }
 }

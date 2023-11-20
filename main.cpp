@@ -40,7 +40,7 @@ LoRaWANInterface lorawan(radio);
 // Max payload size can be LORAMAC_PHY_MAXPAYLOAD.
 // This example only communicates with much shorter messages (<30 bytes).
 // If longer messages are used, these buffers must be changed accordingly.
-uint8_t tx_buffer[30];
+uint8_t tx_buffer[40];
 uint8_t rx_buffer[30];
 
 static lorawan_app_callbacks_t callbacks;
@@ -75,10 +75,20 @@ const char addr = (0x62 << 1);
 int counter = 0;
 scd4x_measurement_t data;
 lorawan_status_t retcode;
+SCD4 scd4(P1_I2C_SDA, P1_I2C_SCL);
+
+void measurement_func(){
+
+}
+
 int main()
 {
     led_thread.start(led_thread_func);
 
+    // while(1){
+    //     printf("\r\n Main thread waiting \r\n");
+    //     ThisThread::sleep_for(BLINKING_RATE);
+    // }
     // stores the status of a call to LoRaWAN protocol
     
 
@@ -86,7 +96,11 @@ int main()
     if (lorawan.initialize(&ev_queue) != LORAWAN_STATUS_OK)
     {
         printf("\r\n LoRa initialization failed! \r\n");
-        return -1;
+         while(1)
+       {
+        printf("\r\n IN ERROR \r\n");
+        ThisThread::sleep_for(BLINKING_RATE);
+       }
     }
 
     printf("\r\n Mbed LoRaWANStack initialized \r\n");
@@ -99,7 +113,11 @@ int main()
     if (lorawan.set_confirmed_msg_retries(CONFIRMED_MSG_RETRY_COUNTER) != LORAWAN_STATUS_OK)
     {
         printf("\r\n set_confirmed_msg_retries failed! \r\n\r\n");
-        return -1;
+       while(1)
+       {
+        printf("\r\n IN ERROR \r\n");
+        ThisThread::sleep_for(BLINKING_RATE);
+       }
     }
 
     printf("\r\n CONFIRMED message retries : %d \r\n",
@@ -109,7 +127,11 @@ int main()
     if (lorawan.enable_adaptive_datarate() != LORAWAN_STATUS_OK)
     {
         printf("\r\n enable_adaptive_datarate failed! \r\n");
-        return -1;
+         while(1)
+       {
+        printf("\r\n IN ERROR \r\n");
+        ThisThread::sleep_for(BLINKING_RATE);
+       }
     }
 
     printf("\r\n Adaptive data  rate (ADR) - Enabled \r\n");
@@ -123,37 +145,26 @@ int main()
     else
     {
         printf("\r\n Connection error, code = %d \r\n", retcode);
-        return -1;
+        while(1)
+       {
+        printf("\r\n IN ERROR \r\n");
+        ThisThread::sleep_for(BLINKING_RATE);
+       }
     }
 
     printf("\r\n Connection - In Progress ...\r\n");
 
-    // make your event queue dispatching events forever
-    ev_queue.dispatch_forever();
-
-    for (int i = 1; i < 10; i++)
-        printf("a\n");
-
-    
     SCD4::ErrorType error;
-    SCD4 scd4(P1_I2C_SDA, P1_I2C_SCL);
     error = scd4.start_periodic_measurement();
     ThisThread::sleep_for(BLINKING_RATE);
     error = scd4.read_measurement(&data);
-
-    while (true)
+    if (error != SCD4::ErrorType::Ok)
     {
-        ThisThread::sleep_for(BLINKING_RATE);
-        error = scd4.read_measurement(&data);
-        if (error != SCD4::ErrorType::Ok)
-        {
-            printf("ERRRRRROR read measurement I2C\n");
-        }
-        printf(" -- counter:%d", counter);
-        printf(" -- CO2 ppm:%d|temp:%f °C|RH:%f %%\n", data.co2, data.temperature, data.rh);
-
-        counter++;
+        printf("ERRRRRROR read measurement I2C\n");
     }
+
+    // make your event queue dispatching events forever
+    ev_queue.dispatch_forever();
 }
 
 /**
@@ -165,13 +176,22 @@ static void send_message()
     int16_t retcode;
     int32_t sensor_value;
 
-    // TODO mettre sensor
-    sensor_value = 69;//data.temperature;
-    printf("\r\n Dummy Sensor Value = %d \r\n", sensor_value);
+    while(abs(data.temperature+45)<1 || data.rh<1 || data.co2<100){
+    SCD4::ErrorType error;
+    error = scd4.read_measurement(&data);
+    if (error != SCD4::ErrorType::Ok)
+    {
+        printf("ERRRRRROR read measurement I2C\n");
+    }
+    printf(" -- counter:%d", counter);
+    printf(" -- CO2 ppm:%d|temp:%f °C|RH:%f %%\n", data.co2, data.temperature, data.rh);
+    counter++;
+    }
+    printf("\r\n Sensor Value = %f \r\n", data.temperature);
 
-    packet_len = sprintf((char *)tx_buffer, "Dummy Sensor Value is %d",
-                         sensor_value);
-
+    packet_len = sprintf((char *)tx_buffer, "{\"T\":%f,\"H\":%f,\"C02\":%d}",
+                         data.temperature,data.rh,data.co2);
+    printf("\r\n packet len = %d || %s \r\n", packet_len,tx_buffer);
     retcode = lorawan.send(MBED_CONF_LORA_APP_PORT, tx_buffer, packet_len,
                            MSG_UNCONFIRMED_FLAG);
 
@@ -185,7 +205,7 @@ static void send_message()
             // retry in 3 seconds
             if (MBED_CONF_LORA_DUTY_CYCLE_ON)
             {
-                ev_queue.call_in(3000ms, send_message);
+                ev_queue.call_in(5000ms, send_message);
             }
         }
         return;
