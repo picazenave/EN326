@@ -1,7 +1,7 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\drivers\wifi\esp8266-driver\ESP8266\ESP8266.o: \
- mbed-os\connectivity\drivers\wifi\esp8266-driver\ESP8266\ESP8266.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
- mbed-os\connectivity\drivers\wifi\esp8266-driver\ESP8266\ESP8266.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/connectivity/drivers/wifi/esp8266-driver/ESP8266/ESP8266.o: \
+ mbed-os/connectivity/drivers/wifi/esp8266-driver/ESP8266/ESP8266.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
+ mbed-os/connectivity/drivers/wifi/esp8266-driver/ESP8266/ESP8266.h \
  mbed-os/drivers/include/drivers/BufferedSerial.h \
  mbed-os/platform/include/platform/platform.h \
  mbed-os/platform/include/platform/mbed_retarget.h \

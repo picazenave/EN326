@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\platform\source\mbed_mpu_mgmt.o: \
- mbed-os\platform\source\mbed_mpu_mgmt.c \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/platform/source/mbed_mpu_mgmt.o: \
+ mbed-os/platform/source/mbed_mpu_mgmt.c \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/platform/include/platform/mbed_mpu_mgmt.h \
  mbed-os/hal/include/hal/mpu_api.h mbed-os/targets/TARGET_STM/device.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/objects.h \

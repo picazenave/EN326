@@ -1,7 +1,7 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\drivers\802.15.4_RF\atmel-rf-driver\source\at24mac.o: \
- mbed-os\connectivity\drivers\802.15.4_RF\atmel-rf-driver\source\at24mac.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
- mbed-os\connectivity\drivers\802.15.4_RF\atmel-rf-driver\source\at24mac.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/connectivity/drivers/802.15.4_RF/atmel-rf-driver/source/at24mac.o: \
+ mbed-os/connectivity/drivers/802.15.4_RF/atmel-rf-driver/source/at24mac.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
+ mbed-os/connectivity/drivers/802.15.4_RF/atmel-rf-driver/source/at24mac.h \
  mbed_zest-core-fmlr-72/TARGET_ZEST_CORE_FMLR-72/PinNames.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/cmsis.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/STM32Cube_FW/CMSIS/stm32l0xx.h \

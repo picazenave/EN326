@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\netsocket\source\NetworkInterfaceDefaults.o: \
- mbed-os\connectivity\netsocket\source\NetworkInterfaceDefaults.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/connectivity/netsocket/source/NetworkInterfaceDefaults.o: \
+ mbed-os/connectivity/netsocket/source/NetworkInterfaceDefaults.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/connectivity/netsocket/include/netsocket/NetworkInterface.h \
  mbed-os/connectivity/netsocket/include/netsocket/nsapi_types.h \
  mbed-os/platform/include/platform/mbed_toolchain.h \

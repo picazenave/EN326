@@ -1,5 +1,5 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\main.o: main.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h mbed-os/mbed.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/main.o: main.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h mbed-os/mbed.h \
  mbed-os/platform/include/platform/mbed_version.h \
  mbed-os/rtos/include/rtos/rtos.h \
  mbed-os/rtos/include/rtos/internal/mbed_rtos_storage.h \

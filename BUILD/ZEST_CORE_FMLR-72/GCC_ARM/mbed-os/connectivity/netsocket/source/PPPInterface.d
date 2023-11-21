@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\netsocket\source\PPPInterface.o: \
- mbed-os\connectivity\netsocket\source\PPPInterface.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/connectivity/netsocket/source/PPPInterface.o: \
+ mbed-os/connectivity/netsocket/source/PPPInterface.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/connectivity/netsocket/include/netsocket/PPPInterface.h \
  mbed-os/connectivity/netsocket/include/netsocket/nsapi.h \
  mbed-os/connectivity/netsocket/include/netsocket/nsapi_types.h \

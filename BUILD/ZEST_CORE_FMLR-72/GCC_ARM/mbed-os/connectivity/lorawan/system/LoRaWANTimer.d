@@ -1,7 +1,7 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\lorawan\system\LoRaWANTimer.o: \
- mbed-os\connectivity\lorawan\system\LoRaWANTimer.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
- mbed-os\connectivity\lorawan\system\LoRaWANTimer.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/connectivity/lorawan/system/LoRaWANTimer.o: \
+ mbed-os/connectivity/lorawan/system/LoRaWANTimer.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
+ mbed-os/connectivity/lorawan/system/LoRaWANTimer.h \
  mbed-os/events/include/events/EventQueue.h \
  mbed-os/events/include/events/equeue.h \
  mbed-os/events/include/events/internal/equeue_platform.h \
@@ -28,5 +28,5 @@ BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\lorawan\system\LoRaWANTimer
  mbed-os/platform/cxxsupport/mstd_utility \
  mbed-os/platform/cxxsupport/mstd_iterator \
  mbed-os/platform/include/platform/NonCopyable.h \
- mbed-os\connectivity\lorawan\system\lorawan_data_structures.h \
+ mbed-os/connectivity/lorawan/system/lorawan_data_structures.h \
  mbed-os/connectivity/lorawan/include/lorawan/lorawan_types.h

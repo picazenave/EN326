@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\lwipstack\lwip\src\core\lwip_tcp_in.o: \
- mbed-os\connectivity\lwipstack\lwip\src\core\lwip_tcp_in.c \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/connectivity/lwipstack/lwip/src/core/lwip_tcp_in.o: \
+ mbed-os/connectivity/lwipstack/lwip/src/core/lwip_tcp_in.c \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/connectivity/lwipstack/lwip/src/include/lwip/opt.h \
  mbed-os/connectivity/lwipstack/include/lwipstack/lwipopts.h \
  mbed-os/connectivity/netsocket/include/netsocket/nsapi_types.h \

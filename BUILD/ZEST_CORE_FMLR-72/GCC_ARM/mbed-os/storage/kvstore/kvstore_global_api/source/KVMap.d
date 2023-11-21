@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\storage\kvstore\kvstore_global_api\source\KVMap.o: \
- mbed-os\storage\kvstore\kvstore_global_api\source\KVMap.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/storage/kvstore/kvstore_global_api/source/KVMap.o: \
+ mbed-os/storage/kvstore/kvstore_global_api/source/KVMap.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/storage/kvstore/include/kvstore/KVStore.h \
  mbed-os/storage/kvstore/kvstore_global_api/include/kvstore_global_api/KVMap.h \
  mbed-os/platform/include/platform/PlatformMutex.h \

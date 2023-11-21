@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\netsocket\source\UDPSocket.o: \
- mbed-os\connectivity\netsocket\source\UDPSocket.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/connectivity/netsocket/source/UDPSocket.o: \
+ mbed-os/connectivity/netsocket/source/UDPSocket.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/connectivity/netsocket/include/netsocket/UDPSocket.h \
  mbed-os/connectivity/netsocket/include/netsocket/InternetSocket.h \
  mbed-os/connectivity/netsocket/include/netsocket/Socket.h \

@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\platform\source\DeepSleepLock.o: \
- mbed-os\platform\source\DeepSleepLock.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/platform/source/DeepSleepLock.o: \
+ mbed-os/platform/source/DeepSleepLock.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/platform/include/platform/DeepSleepLock.h \
  mbed-os/platform/include/platform/mbed_atomic.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/cmsis.h \

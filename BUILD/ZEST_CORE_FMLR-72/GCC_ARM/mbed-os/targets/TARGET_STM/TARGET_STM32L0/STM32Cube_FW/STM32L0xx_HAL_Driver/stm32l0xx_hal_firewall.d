@@ -1,7 +1,7 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\targets\TARGET_STM\TARGET_STM32L0\STM32Cube_FW\STM32L0xx_HAL_Driver\stm32l0xx_hal_firewall.o: \
- mbed-os\targets\TARGET_STM\TARGET_STM32L0\STM32Cube_FW\STM32L0xx_HAL_Driver\stm32l0xx_hal_firewall.c \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
- mbed-os\targets\TARGET_STM\TARGET_STM32L0\STM32Cube_FW\STM32L0xx_HAL_Driver\stm32l0xx_hal.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/targets/TARGET_STM/TARGET_STM32L0/STM32Cube_FW/STM32L0xx_HAL_Driver/stm32l0xx_hal_firewall.o: \
+ mbed-os/targets/TARGET_STM/TARGET_STM32L0/STM32Cube_FW/STM32L0xx_HAL_Driver/stm32l0xx_hal_firewall.c \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
+ mbed-os/targets/TARGET_STM/TARGET_STM32L0/STM32Cube_FW/STM32L0xx_HAL_Driver/stm32l0xx_hal.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/STM32Cube_FW/stm32l0xx_hal_conf.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/STM32Cube_FW/STM32L0xx_HAL_Driver/stm32l0xx_hal_rcc.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/STM32Cube_FW/STM32L0xx_HAL_Driver/stm32l0xx_hal_def.h \

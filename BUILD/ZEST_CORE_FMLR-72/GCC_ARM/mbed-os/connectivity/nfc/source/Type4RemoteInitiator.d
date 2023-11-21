@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\nfc\source\Type4RemoteInitiator.o: \
- mbed-os\connectivity\nfc\source\Type4RemoteInitiator.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/connectivity/nfc/source/Type4RemoteInitiator.o: \
+ mbed-os/connectivity/nfc/source/Type4RemoteInitiator.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/connectivity/nfc/include/nfc/Type4RemoteInitiator.h \
  mbed-os/connectivity/nfc/include/nfc/NFCNDEFCapable.h \
  mbed-os/platform/include/platform/Span.h \

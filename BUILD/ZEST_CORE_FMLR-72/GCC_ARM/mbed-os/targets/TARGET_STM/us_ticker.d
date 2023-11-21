@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\targets\TARGET_STM\us_ticker.o: \
- mbed-os\targets\TARGET_STM\us_ticker.c \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/targets/TARGET_STM/us_ticker.o: \
+ mbed-os/targets/TARGET_STM/us_ticker.c \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/hal/include/hal/us_ticker_api.h \
  mbed-os/hal/include/hal/ticker_api.h mbed-os/targets/TARGET_STM/device.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/objects.h \
@@ -86,5 +86,4 @@ BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\targets\TARGET_STM\us_ticker.o: \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/i2c_device.h \
  mbed-os/targets/TARGET_STM/us_ticker_defines.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/us_ticker_data.h \
- mbed-os/targets/TARGET_STM/lp_ticker_defines.h \
- mbed-os\targets\TARGET_STM\us_ticker_defines.h
+ mbed-os/targets/TARGET_STM/lp_ticker_defines.h

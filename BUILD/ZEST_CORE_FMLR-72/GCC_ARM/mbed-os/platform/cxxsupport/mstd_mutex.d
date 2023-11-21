@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\platform\cxxsupport\mstd_mutex.o: \
- mbed-os\platform\cxxsupport\mstd_mutex.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/platform/cxxsupport/mstd_mutex.o: \
+ mbed-os/platform/cxxsupport/mstd_mutex.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/platform/cxxsupport/mstd_mutex \
  mbed-os/platform/include/platform/SingletonPtr.h \
  mbed-os/platform/include/platform/mbed_assert.h \

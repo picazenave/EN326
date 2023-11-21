@@ -1,7 +1,7 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\lorawan\lorastack\mac\LoRaMacCommand.o: \
- mbed-os\connectivity\lorawan\lorastack\mac\LoRaMacCommand.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
- mbed-os\connectivity\lorawan\lorastack\mac\LoRaMacCommand.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/connectivity/lorawan/lorastack/mac/LoRaMacCommand.o: \
+ mbed-os/connectivity/lorawan/lorastack/mac/LoRaMacCommand.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
+ mbed-os/connectivity/lorawan/lorastack/mac/LoRaMacCommand.h \
  mbed-os/connectivity/lorawan/system/lorawan_data_structures.h \
  mbed-os/connectivity/lorawan/include/lorawan/lorawan_types.h \
  mbed-os/platform/include/platform/Callback.h \
@@ -98,9 +98,9 @@ BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\lorawan\lorastack\mac\LoRaM
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/TARGET_STM32L071xZ/cmsis_nvic.h \
  mbed-os/targets/TARGET_STM/PinNamesTypes.h \
  mbed-os/connectivity/lorawan/lorastack/phy/lora_phy_ds.h \
- mbed-os\connectivity\lorawan\lorastack\mac\LoRaMac.h \
- mbed-os\connectivity\lorawan\lorastack\mac\LoRaMacChannelPlan.h \
- mbed-os\connectivity\lorawan\lorastack\mac\LoRaMacCrypto.h \
+ mbed-os/connectivity/lorawan/lorastack/mac/LoRaMac.h \
+ mbed-os/connectivity/lorawan/lorastack/mac/LoRaMacChannelPlan.h \
+ mbed-os/connectivity/lorawan/lorastack/mac/LoRaMacCrypto.h \
  mbed-os/connectivity/mbedtls/include/mbedtls/aes.h \
  mbed-os/connectivity/mbedtls/include/mbedtls/config.h \
  mbed-os/connectivity/mbedtls/platform/inc/platform_mbed.h \

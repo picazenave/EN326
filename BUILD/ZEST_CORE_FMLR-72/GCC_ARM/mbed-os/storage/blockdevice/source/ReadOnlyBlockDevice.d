@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\storage\blockdevice\source\ReadOnlyBlockDevice.o: \
- mbed-os\storage\blockdevice\source\ReadOnlyBlockDevice.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/storage/blockdevice/source/ReadOnlyBlockDevice.o: \
+ mbed-os/storage/blockdevice/source/ReadOnlyBlockDevice.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/storage/blockdevice/include/blockdevice/ReadOnlyBlockDevice.h \
  mbed-os/storage/blockdevice/include/blockdevice/BlockDevice.h \
  mbed-os/platform/include/platform/PlatformMutex.h \

@@ -1,7 +1,7 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\drivers\lora\COMPONENT_SX1272\SX1272_LoRaRadio.o: \
- mbed-os\connectivity\drivers\lora\COMPONENT_SX1272\SX1272_LoRaRadio.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
- mbed-os\connectivity\drivers\lora\COMPONENT_SX1272\SX1272_LoRaRadio.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/connectivity/drivers/lora/COMPONENT_SX1272/SX1272_LoRaRadio.o: \
+ mbed-os/connectivity/drivers/lora/COMPONENT_SX1272/SX1272_LoRaRadio.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
+ mbed-os/connectivity/drivers/lora/COMPONENT_SX1272/SX1272_LoRaRadio.h \
  mbed_zest-core-fmlr-72/TARGET_ZEST_CORE_FMLR-72/PinNames.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/cmsis.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/STM32Cube_FW/CMSIS/stm32l0xx.h \

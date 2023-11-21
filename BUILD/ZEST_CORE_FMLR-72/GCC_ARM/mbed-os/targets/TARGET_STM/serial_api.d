@@ -1,7 +1,7 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\targets\TARGET_STM\serial_api.o: \
- mbed-os\targets\TARGET_STM\serial_api.c \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
- mbed-os\targets\TARGET_STM\serial_api_hal.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/targets/TARGET_STM/serial_api.o: \
+ mbed-os/targets/TARGET_STM/serial_api.c \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
+ mbed-os/targets/TARGET_STM/serial_api_hal.h \
  mbed-os/hal/include/hal/serial_api.h mbed-os/targets/TARGET_STM/device.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/objects.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/cmsis.h \
@@ -92,5 +92,5 @@ BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\targets\TARGET_STM\serial_api.o: \
  mbed-os/platform/include/platform/mbed_debug.h \
  mbed-os/platform/include/platform/mbed_error.h \
  mbed-os/platform/include/platform/mbed_retarget.h \
- mbed-os\targets\TARGET_STM\PeripheralPins.h \
+ mbed-os/targets/TARGET_STM/PeripheralPins.h \
  mbed-os/hal/include/hal/pinmap.h

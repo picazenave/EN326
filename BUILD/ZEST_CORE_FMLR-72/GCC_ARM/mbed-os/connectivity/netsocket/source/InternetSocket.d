@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\netsocket\source\InternetSocket.o: \
- mbed-os\connectivity\netsocket\source\InternetSocket.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/connectivity/netsocket/source/InternetSocket.o: \
+ mbed-os/connectivity/netsocket/source/InternetSocket.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/connectivity/netsocket/include/netsocket/InternetSocket.h \
  mbed-os/connectivity/netsocket/include/netsocket/Socket.h \
  mbed-os/connectivity/netsocket/include/netsocket/SocketAddress.h \

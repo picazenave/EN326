@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\nfc\source\NFCTarget.o: \
- mbed-os\connectivity\nfc\source\NFCTarget.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/connectivity/nfc/source/NFCTarget.o: \
+ mbed-os/connectivity/nfc/source/NFCTarget.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/connectivity/nfc/include/nfc/NFCTarget.h \
  mbed-os/connectivity/nfc/include/nfc/NFCDefinitions.h \
  mbed-os/connectivity/nfc/libraries/stack/nfc_errors.h \

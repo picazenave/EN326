@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\cmsis\CMSIS_5\CMSIS\RTOS2\Source\os_systick.o: \
- mbed-os\cmsis\CMSIS_5\CMSIS\RTOS2\Source\os_systick.c \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/Source/os_systick.o: \
+ mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/Source/os_systick.c \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/Include/os_tick.h \
  mbed-os/cmsis/device/RTE/include/RTE_Components.h \
  mbed-os/cmsis/device/rtos/include/mbed_rtx_conf.h \

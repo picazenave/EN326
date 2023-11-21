@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\platform\source\mbed_alloc_wrappers.o: \
- mbed-os\platform\source\mbed_alloc_wrappers.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/platform/source/mbed_alloc_wrappers.o: \
+ mbed-os/platform/source/mbed_alloc_wrappers.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/platform/include/platform/mbed_mem_trace.h \
  mbed-os/platform/include/platform/mbed_stats.h \
  mbed-os/hal/include/hal/ticker_api.h mbed-os/targets/TARGET_STM/device.h \

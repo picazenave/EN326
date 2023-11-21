@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\targets\TARGET_STM\stm_spi_api.o: \
- mbed-os\targets\TARGET_STM\stm_spi_api.c \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/targets/TARGET_STM/stm_spi_api.o: \
+ mbed-os/targets/TARGET_STM/stm_spi_api.c \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/platform/include/platform/mbed_assert.h \
  mbed-os/platform/include/platform/mbed_toolchain.h \
  mbed-os/platform/include/platform/mbed_preprocessor.h \
@@ -97,6 +97,6 @@ BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\targets\TARGET_STM\stm_spi_api.o: \
  mbed-os/hal/include/hal/spi_api.h mbed-os/hal/include/hal/pinmap.h \
  mbed-os/hal/include/hal/dma_api.h mbed-os/hal/include/hal/buffer.h \
  mbed-os/hal/include/hal/pinmap.h \
- mbed-os\targets\TARGET_STM\PeripheralPins.h \
+ mbed-os/targets/TARGET_STM/PeripheralPins.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/spi_device.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/STM32Cube_FW/STM32L0xx_HAL_Driver/stm32l0xx_ll_spi.h

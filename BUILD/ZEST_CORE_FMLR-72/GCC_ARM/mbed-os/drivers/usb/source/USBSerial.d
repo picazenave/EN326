@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\drivers\usb\source\USBSerial.o: \
- mbed-os\drivers\usb\source\USBSerial.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/drivers/usb/source/USBSerial.o: \
+ mbed-os/drivers/usb/source/USBSerial.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/drivers/usb/include/usb/USBSerial.h \
  mbed-os/drivers/usb/include/usb/USBCDC.h \
  mbed-os/drivers/usb/include/usb/internal/USBDescriptor.h \

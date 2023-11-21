@@ -1,8 +1,8 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\drivers\802.15.4_RF\stm-s2lp-rf-driver\source\at24mac_s2lp.o: \
- mbed-os\connectivity\drivers\802.15.4_RF\stm-s2lp-rf-driver\source\at24mac_s2lp.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/connectivity/drivers/802.15.4_RF/stm-s2lp-rf-driver/source/at24mac_s2lp.o: \
+ mbed-os/connectivity/drivers/802.15.4_RF/stm-s2lp-rf-driver/source/at24mac_s2lp.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/connectivity/drivers/802.15.4_RF/stm-s2lp-rf-driver/stm-s2lp-rf-driver/NanostackRfPhys2lp.h \
- mbed-os\connectivity\drivers\802.15.4_RF\stm-s2lp-rf-driver\source\at24mac_s2lp.h \
+ mbed-os/connectivity/drivers/802.15.4_RF/stm-s2lp-rf-driver/source/at24mac_s2lp.h \
  mbed_zest-core-fmlr-72/TARGET_ZEST_CORE_FMLR-72/PinNames.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/cmsis.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/STM32Cube_FW/CMSIS/stm32l0xx.h \

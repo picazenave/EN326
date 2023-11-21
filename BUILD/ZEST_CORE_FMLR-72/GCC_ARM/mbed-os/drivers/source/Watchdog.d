@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\drivers\source\Watchdog.o: \
- mbed-os\drivers\source\Watchdog.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/drivers/source/Watchdog.o: \
+ mbed-os/drivers/source/Watchdog.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/drivers/include/drivers/Watchdog.h \
  mbed-os/platform/include/platform/mbed_error.h \
  mbed-os/platform/include/platform/mbed_retarget.h \

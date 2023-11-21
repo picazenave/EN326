@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\nfc\source\NFCEEPROMDriver.o: \
- mbed-os\connectivity\nfc\source\NFCEEPROMDriver.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/connectivity/nfc/source/NFCEEPROMDriver.o: \
+ mbed-os/connectivity/nfc/source/NFCEEPROMDriver.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/connectivity/nfc/include/nfc/NFCEEPROMDriver.h \
  mbed-os/events/include/events/EventQueue.h \
  mbed-os/events/include/events/equeue.h \

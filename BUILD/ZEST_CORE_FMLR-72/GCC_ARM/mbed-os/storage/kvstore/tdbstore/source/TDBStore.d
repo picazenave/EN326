@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\storage\kvstore\tdbstore\source\TDBStore.o: \
- mbed-os\storage\kvstore\tdbstore\source\TDBStore.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/storage/kvstore/tdbstore/source/TDBStore.o: \
+ mbed-os/storage/kvstore/tdbstore/source/TDBStore.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/storage/kvstore/tdbstore/include/tdbstore/TDBStore.h \
  mbed-os/storage/kvstore/include/kvstore/KVStore.h \
  mbed-os/storage/blockdevice/include/blockdevice/BlockDevice.h \

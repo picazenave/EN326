@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\drivers\source\FlashIAP.o: \
- mbed-os\drivers\source\FlashIAP.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/drivers/source/FlashIAP.o: \
+ mbed-os/drivers/source/FlashIAP.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/drivers/include/drivers/FlashIAP.h \
  mbed-os/hal/include/hal/flash_api.h mbed-os/targets/TARGET_STM/device.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/objects.h \

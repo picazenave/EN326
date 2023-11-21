@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\drivers\usb\source\USBKeyboard.o: \
- mbed-os\drivers\usb\source\USBKeyboard.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/drivers/usb/source/USBKeyboard.o: \
+ mbed-os/drivers/usb/source/USBKeyboard.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/drivers/usb/include/usb/USBKeyboard.h \
  mbed-os/drivers/usb/include/usb/USBHID.h \
  mbed-os/drivers/usb/include/usb/internal/USBDescriptor.h \

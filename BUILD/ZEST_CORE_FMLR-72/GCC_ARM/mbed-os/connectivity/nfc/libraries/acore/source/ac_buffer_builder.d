@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\nfc\libraries\acore\source\ac_buffer_builder.o: \
- mbed-os\connectivity\nfc\libraries\acore\source\ac_buffer_builder.c \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/connectivity/nfc/libraries/acore/source/ac_buffer_builder.o: \
+ mbed-os/connectivity/nfc/libraries/acore/source/ac_buffer_builder.c \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/connectivity/nfc/libraries/acore/acore/ac_buffer_builder.h \
  mbed-os/connectivity/nfc/libraries/acore/acore/ac_buffer.h \
  mbed-os/connectivity/nfc/libraries/acore/acore/ac_buffer_reader.h \

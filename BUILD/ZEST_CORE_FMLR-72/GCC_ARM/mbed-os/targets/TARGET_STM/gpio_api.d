@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\targets\TARGET_STM\gpio_api.o: \
- mbed-os\targets\TARGET_STM\gpio_api.c \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/targets/TARGET_STM/gpio_api.o: \
+ mbed-os/targets/TARGET_STM/gpio_api.c \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/platform/include/platform/mbed_assert.h \
  mbed-os/platform/include/platform/mbed_toolchain.h \
  mbed-os/platform/include/platform/mbed_preprocessor.h \
@@ -91,4 +91,4 @@ BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\targets\TARGET_STM\gpio_api.o: \
  mbed-os/platform/include/platform/mbed_retarget.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/pin_device.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/STM32Cube_FW/STM32L0xx_HAL_Driver/stm32l0xx_ll_gpio.h \
- mbed-os\targets\TARGET_STM\PeripheralPins.h
+ mbed-os/targets/TARGET_STM/PeripheralPins.h

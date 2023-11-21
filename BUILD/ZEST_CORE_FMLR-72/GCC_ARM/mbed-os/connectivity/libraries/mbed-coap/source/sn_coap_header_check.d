@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\libraries\mbed-coap\source\sn_coap_header_check.o: \
- mbed-os\connectivity\libraries\mbed-coap\source\sn_coap_header_check.c \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/connectivity/libraries/mbed-coap/source/sn_coap_header_check.o: \
+ mbed-os/connectivity/libraries/mbed-coap/source/sn_coap_header_check.c \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/connectivity/libraries/nanostack-libservice/mbed-client-libservice/ns_types.h \
  mbed-os/connectivity/libraries/mbed-coap/mbed-coap/sn_coap_header.h \
  mbed-os/connectivity/libraries/mbed-coap/mbed-coap/sn_config.h \

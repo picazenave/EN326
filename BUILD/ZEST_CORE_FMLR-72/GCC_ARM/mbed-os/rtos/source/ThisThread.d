@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\rtos\source\ThisThread.o: \
- mbed-os\rtos\source\ThisThread.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/rtos/source/ThisThread.o: \
+ mbed-os/rtos/source/ThisThread.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/rtos/include/rtos/ThisThread.h \
  mbed-os/platform/include/platform/mbed_toolchain.h \
  mbed-os/platform/include/platform/mbed_preprocessor.h \

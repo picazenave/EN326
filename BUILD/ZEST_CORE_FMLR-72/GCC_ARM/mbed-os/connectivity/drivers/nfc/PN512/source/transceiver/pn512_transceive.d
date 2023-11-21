@@ -1,8 +1,8 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\drivers\nfc\PN512\source\transceiver\pn512_transceive.o: \
- mbed-os\connectivity\drivers\nfc\PN512\source\transceiver\pn512_transceive.c \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/connectivity/drivers/nfc/PN512/source/transceiver/pn512_transceive.o: \
+ mbed-os/connectivity/drivers/nfc/PN512/source/transceiver/pn512_transceive.c \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/connectivity/nfc/libraries/stack/nfc_errors.h \
- mbed-os\connectivity\drivers\nfc\PN512\source\transceiver\pn512.h \
+ mbed-os/connectivity/drivers/nfc/PN512/source/transceiver/pn512.h \
  mbed-os/connectivity/nfc/libraries/stack/nfc_common.h \
  mbed-os/connectivity/nfc/libraries/stack/nfc_errors.h \
  mbed-os/connectivity/nfc/libraries/stack/platform/nfc_debug.h \
@@ -15,13 +15,13 @@ BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\drivers\nfc\PN512\source\tr
  mbed-os/connectivity/nfc/libraries/stack/transceiver/protocols.h \
  mbed-os/connectivity/nfc/libraries/stack/platform/nfc_transport.h \
  mbed-os/connectivity/nfc/libraries/stack/platform/nfc_scheduler.h \
- mbed-os\connectivity\drivers\nfc\PN512\source\transceiver\pn512_types.h \
- mbed-os\connectivity\drivers\nfc\PN512\source\transceiver\pn512_callback.h \
- mbed-os\connectivity\drivers\nfc\PN512\source\transceiver\pn512_transceive.h \
- mbed-os\connectivity\drivers\nfc\PN512\source\transceiver\pn512_rf.h \
- mbed-os\connectivity\drivers\nfc\PN512\source\transceiver\pn512_irq.h \
- mbed-os\connectivity\drivers\nfc\PN512\source\transceiver\pn512_registers.h \
- mbed-os\connectivity\drivers\nfc\PN512\source\transceiver\pn512_cmd.h \
- mbed-os\connectivity\drivers\nfc\PN512\source\transceiver\pn512_internal.h \
+ mbed-os/connectivity/drivers/nfc/PN512/source/transceiver/pn512_types.h \
+ mbed-os/connectivity/drivers/nfc/PN512/source/transceiver/pn512_callback.h \
+ mbed-os/connectivity/drivers/nfc/PN512/source/transceiver/pn512_transceive.h \
+ mbed-os/connectivity/drivers/nfc/PN512/source/transceiver/pn512_rf.h \
+ mbed-os/connectivity/drivers/nfc/PN512/source/transceiver/pn512_irq.h \
+ mbed-os/connectivity/drivers/nfc/PN512/source/transceiver/pn512_registers.h \
+ mbed-os/connectivity/drivers/nfc/PN512/source/transceiver/pn512_cmd.h \
+ mbed-os/connectivity/drivers/nfc/PN512/source/transceiver/pn512_internal.h \
  mbed-os/connectivity/nfc/libraries/stack/transceiver/transceiver_internal.h \
  mbed-os/connectivity/nfc/libraries/stack/transceiver/transceiver.h

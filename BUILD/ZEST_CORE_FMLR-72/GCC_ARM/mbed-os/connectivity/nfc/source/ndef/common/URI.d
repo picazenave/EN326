@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\nfc\source\ndef\common\URI.o: \
- mbed-os\connectivity\nfc\source\ndef\common\URI.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/connectivity/nfc/source/ndef/common/URI.o: \
+ mbed-os/connectivity/nfc/source/ndef/common/URI.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/connectivity/nfc/include/nfc/ndef/common/URI.h \
  mbed-os/platform/include/platform/Span.h \
  mbed-os/platform/include/platform/mbed_assert.h \

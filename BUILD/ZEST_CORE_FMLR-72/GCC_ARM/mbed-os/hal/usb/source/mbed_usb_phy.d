@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\hal\usb\source\mbed_usb_phy.o: \
- mbed-os\hal\usb\source\mbed_usb_phy.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/hal/usb/source/mbed_usb_phy.o: \
+ mbed-os/hal/usb/source/mbed_usb_phy.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/hal/usb/include/usb/usb_phy_api.h \
  mbed-os/hal/usb/include/usb/USBPhy.h \
  mbed-os/hal/usb/include/usb/USBPhyTypes.h \

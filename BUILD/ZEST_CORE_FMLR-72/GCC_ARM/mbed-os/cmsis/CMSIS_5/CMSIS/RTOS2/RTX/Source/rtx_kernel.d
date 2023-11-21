@@ -1,14 +1,14 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\cmsis\CMSIS_5\CMSIS\RTOS2\RTX\Source\rtx_kernel.o: \
- mbed-os\cmsis\CMSIS_5\CMSIS\RTOS2\RTX\Source\rtx_kernel.c \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
- mbed-os\cmsis\CMSIS_5\CMSIS\RTOS2\RTX\Source\rtx_lib.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_kernel.o: \
+ mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_kernel.c \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
+ mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_lib.h \
  mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Include/rtx_def.h \
  mbed-os/cmsis/device/RTE/include/RTE_Components.h \
  mbed-os/cmsis/device/rtos/include/mbed_rtx_conf.h \
  mbed-os/targets/TARGET_STM/mbed_rtx.h \
  mbed-os/cmsis/device/mbed_cmsis_conf.h \
  mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Config/RTX_Config.h \
- mbed-os\cmsis\CMSIS_5\CMSIS\RTOS2\RTX\Source\rtx_core_c.h \
+ mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_core_c.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/cmsis.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/STM32Cube_FW/CMSIS/stm32l0xx.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/STM32Cube_FW/CMSIS/stm32l071xx.h \
@@ -70,7 +70,7 @@ BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\cmsis\CMSIS_5\CMSIS\RTOS2\RTX\Source\rtx
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/STM32Cube_FW/STM32L0xx_HAL_Driver/stm32l0xx_hal_pcd.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/STM32Cube_FW/STM32L0xx_HAL_Driver/stm32l0xx_ll_usb.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/TARGET_STM32L071xZ/cmsis_nvic.h \
- mbed-os\cmsis\CMSIS_5\CMSIS\RTOS2\RTX\Source\rtx_core_cm.h \
+ mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_core_cm.h \
  mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/Include/os_tick.h \
  mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/Include/cmsis_os2.h \
  mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Include/rtx_os.h \

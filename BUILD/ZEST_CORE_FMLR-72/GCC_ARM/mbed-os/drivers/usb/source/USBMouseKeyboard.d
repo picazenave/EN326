@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\drivers\usb\source\USBMouseKeyboard.o: \
- mbed-os\drivers\usb\source\USBMouseKeyboard.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/drivers/usb/source/USBMouseKeyboard.o: \
+ mbed-os/drivers/usb/source/USBMouseKeyboard.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/drivers/usb/include/usb/USBMouseKeyboard.h \
  mbed-os/drivers/usb/include/usb/USBMouse.h \
  mbed-os/drivers/usb/include/usb/USBHID.h \

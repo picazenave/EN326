@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\targets\TARGET_STM\TARGET_STM32L0\flash_api.o: \
- mbed-os\targets\TARGET_STM\TARGET_STM32L0\flash_api.c \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/targets/TARGET_STM/TARGET_STM32L0/flash_api.o: \
+ mbed-os/targets/TARGET_STM/TARGET_STM32L0/flash_api.c \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/hal/include/hal/flash_api.h mbed-os/targets/TARGET_STM/device.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/objects.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/cmsis.h \
@@ -86,5 +86,4 @@ BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\targets\TARGET_STM\TARGET_STM32L0\flash_
  mbed-os/targets/TARGET_STM/us_ticker_defines.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/us_ticker_data.h \
  mbed-os/targets/TARGET_STM/lp_ticker_defines.h \
- mbed-os/platform/include/platform/mbed_critical.h \
- mbed-os\targets\TARGET_STM\TARGET_STM32L0\cmsis.h
+ mbed-os/platform/include/platform/mbed_critical.h

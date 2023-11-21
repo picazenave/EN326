@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\features\frameworks\utest\source\unity_handler.o: \
- mbed-os\features\frameworks\utest\source\unity_handler.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/features/frameworks/utest/source/unity_handler.o: \
+ mbed-os/features/frameworks/utest/source/unity_handler.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/features/frameworks/utest/utest/utest_harness.h \
  mbed-os/features/frameworks/utest/utest/utest_types.h \
  mbed-os/features/frameworks/utest/utest/utest_shim.h \

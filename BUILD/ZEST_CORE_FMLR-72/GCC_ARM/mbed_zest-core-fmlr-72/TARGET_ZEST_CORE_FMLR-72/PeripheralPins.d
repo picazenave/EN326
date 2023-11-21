@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_zest-core-fmlr-72\TARGET_ZEST_CORE_FMLR-72\PeripheralPins.o: \
- mbed_zest-core-fmlr-72\TARGET_ZEST_CORE_FMLR-72\PeripheralPins.c \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_zest-core-fmlr-72/TARGET_ZEST_CORE_FMLR-72/PeripheralPins.o: \
+ mbed_zest-core-fmlr-72/TARGET_ZEST_CORE_FMLR-72/PeripheralPins.c \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/targets/TARGET_STM/PeripheralPins.h \
  mbed-os/hal/include/hal/pinmap.h \
  mbed_zest-core-fmlr-72/TARGET_ZEST_CORE_FMLR-72/PinNames.h \

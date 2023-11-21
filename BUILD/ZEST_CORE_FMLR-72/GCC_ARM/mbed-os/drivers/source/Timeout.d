@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\drivers\source\Timeout.o: \
- mbed-os\drivers\source\Timeout.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/drivers/source/Timeout.o: \
+ mbed-os/drivers/source/Timeout.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/drivers/include/drivers/Timeout.h \
  mbed-os/drivers/include/drivers/HighResClock.h \
  mbed-os/hal/include/hal/us_ticker_api.h \

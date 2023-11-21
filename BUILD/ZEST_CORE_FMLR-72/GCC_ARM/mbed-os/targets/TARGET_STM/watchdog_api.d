@@ -1,9 +1,9 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\targets\TARGET_STM\watchdog_api.o: \
- mbed-os\targets\TARGET_STM\watchdog_api.c \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/targets/TARGET_STM/watchdog_api.o: \
+ mbed-os/targets/TARGET_STM/watchdog_api.c \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/hal/include/hal/watchdog_api.h \
  mbed-os/hal/include/hal/reset_reason_api.h \
- mbed-os\targets\TARGET_STM\device.h \
+ mbed-os/targets/TARGET_STM/device.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/objects.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/cmsis.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/STM32Cube_FW/CMSIS/stm32l0xx.h \
@@ -83,10 +83,10 @@ BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\targets\TARGET_STM\watchdog_api.o: \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/STM32Cube_FW/STM32L0xx_HAL_Driver/stm32l0xx_ll_tim.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/STM32Cube_FW/STM32L0xx_HAL_Driver/stm32l0xx_ll_pwr.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/STM32Cube_FW/STM32L0xx_HAL_Driver/stm32l0xx_ll_rcc.h \
- mbed-os\targets\TARGET_STM\stm_i2c_api.h \
+ mbed-os/targets/TARGET_STM/stm_i2c_api.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/i2c_device.h \
- mbed-os\targets\TARGET_STM\us_ticker_defines.h \
+ mbed-os/targets/TARGET_STM/us_ticker_defines.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/us_ticker_data.h \
- mbed-os\targets\TARGET_STM\lp_ticker_defines.h \
+ mbed-os/targets/TARGET_STM/lp_ticker_defines.h \
  mbed-os/platform/include/platform/mbed_error.h \
  mbed-os/platform/include/platform/mbed_retarget.h

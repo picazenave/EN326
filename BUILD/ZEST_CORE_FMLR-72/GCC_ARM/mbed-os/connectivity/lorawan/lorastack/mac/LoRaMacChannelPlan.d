@@ -1,7 +1,7 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\lorawan\lorastack\mac\LoRaMacChannelPlan.o: \
- mbed-os\connectivity\lorawan\lorastack\mac\LoRaMacChannelPlan.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
- mbed-os\connectivity\lorawan\lorastack\mac\LoRaMacChannelPlan.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/connectivity/lorawan/lorastack/mac/LoRaMacChannelPlan.o: \
+ mbed-os/connectivity/lorawan/lorastack/mac/LoRaMacChannelPlan.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
+ mbed-os/connectivity/lorawan/lorastack/mac/LoRaMacChannelPlan.h \
  mbed-os/connectivity/lorawan/system/lorawan_data_structures.h \
  mbed-os/connectivity/lorawan/include/lorawan/lorawan_types.h \
  mbed-os/platform/include/platform/Callback.h \

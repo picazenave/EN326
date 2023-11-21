@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\netsocket\source\SocketStats.o: \
- mbed-os\connectivity\netsocket\source\SocketStats.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/connectivity/netsocket/source/SocketStats.o: \
+ mbed-os/connectivity/netsocket/source/SocketStats.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/connectivity/netsocket/include/netsocket/SocketStats.h \
  mbed-os/platform/include/platform/SingletonPtr.h \
  mbed-os/platform/include/platform/mbed_assert.h \

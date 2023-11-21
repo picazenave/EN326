@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\storage\filesystem\littlefs\source\LittleFileSystem.o: \
- mbed-os\storage\filesystem\littlefs\source\LittleFileSystem.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/storage/filesystem/littlefs/source/LittleFileSystem.o: \
+ mbed-os/storage/filesystem/littlefs/source/LittleFileSystem.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/storage/filesystem/include/filesystem/mbed_filesystem.h \
  mbed-os/platform/include/platform/platform.h \
  mbed-os/platform/include/platform/mbed_retarget.h \

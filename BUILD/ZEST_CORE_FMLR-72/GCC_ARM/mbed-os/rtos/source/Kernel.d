@@ -1,14 +1,14 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\rtos\source\Kernel.o: \
- mbed-os\rtos\source\Kernel.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/rtos/source/Kernel.o: \
+ mbed-os/rtos/source/Kernel.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/rtos/include/rtos/Kernel.h \
  mbed-os/rtos/include/rtos/mbed_rtos_types.h \
  mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/Include/cmsis_os2.h \
  mbed-os/platform/include/platform/mbed_toolchain.h \
  mbed-os/platform/include/platform/mbed_preprocessor.h \
- mbed-os\rtos\source\rtos_idle.h \
+ mbed-os/rtos/source/rtos_idle.h \
  mbed-os/platform/include/platform/mbed_toolchain.h \
- mbed-os\rtos\source\rtos_handlers.h \
+ mbed-os/rtos/source/rtos_handlers.h \
  mbed-os/platform/include/platform/mbed_critical.h \
  mbed-os/platform/include/platform/internal/mbed_os_timer.h \
  mbed-os/platform/include/platform/internal/SysTimer.h \

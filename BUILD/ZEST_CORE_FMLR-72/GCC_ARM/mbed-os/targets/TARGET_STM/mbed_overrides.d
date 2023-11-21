@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\targets\TARGET_STM\mbed_overrides.o: \
- mbed-os\targets\TARGET_STM\mbed_overrides.c \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/targets/TARGET_STM/mbed_overrides.o: \
+ mbed-os/targets/TARGET_STM/mbed_overrides.c \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/cmsis.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/STM32Cube_FW/CMSIS/stm32l0xx.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/STM32Cube_FW/CMSIS/stm32l071xx.h \
@@ -82,7 +82,7 @@ BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\targets\TARGET_STM\mbed_overrides.o: \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/STM32Cube_FW/STM32L0xx_HAL_Driver/stm32l0xx_ll_rcc.h \
  mbed-os/platform/include/platform/mbed_error.h \
  mbed-os/platform/include/platform/mbed_retarget.h \
- mbed-os\targets\TARGET_STM\rtc_api_hal.h \
+ mbed-os/targets/TARGET_STM/rtc_api_hal.h \
  mbed-os/hal/include/hal/rtc_api.h mbed-os/targets/TARGET_STM/device.h \
  mbed-os/targets/TARGET_STM/stm_i2c_api.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/i2c_device.h \

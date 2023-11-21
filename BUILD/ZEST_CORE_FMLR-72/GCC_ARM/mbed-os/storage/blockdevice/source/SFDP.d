@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\storage\blockdevice\source\SFDP.o: \
- mbed-os\storage\blockdevice\source\SFDP.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/storage/blockdevice/source/SFDP.o: \
+ mbed-os/storage/blockdevice/source/SFDP.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/platform/include/platform/mbed_error.h \
  mbed-os/platform/include/platform/mbed_retarget.h \
  mbed-os/platform/include/platform/mbed_toolchain.h \

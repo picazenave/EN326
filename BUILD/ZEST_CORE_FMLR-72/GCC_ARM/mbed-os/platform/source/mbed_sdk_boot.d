@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\platform\source\mbed_sdk_boot.o: \
- mbed-os\platform\source\mbed_sdk_boot.c \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/platform/source/mbed_sdk_boot.o: \
+ mbed-os/platform/source/mbed_sdk_boot.c \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/platform/include/platform/mbed_toolchain.h \
  mbed-os/platform/include/platform/mbed_preprocessor.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/cmsis.h \

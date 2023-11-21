@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\rtos\source\ConditionVariable.o: \
- mbed-os\rtos\source\ConditionVariable.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/rtos/source/ConditionVariable.o: \
+ mbed-os/rtos/source/ConditionVariable.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/rtos/include/rtos/ConditionVariable.h \
  mbed-os/rtos/include/rtos/mbed_rtos_types.h \
  mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/Include/cmsis_os2.h \

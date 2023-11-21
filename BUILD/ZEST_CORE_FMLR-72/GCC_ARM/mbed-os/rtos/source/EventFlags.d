@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\rtos\source\EventFlags.o: \
- mbed-os\rtos\source\EventFlags.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/rtos/source/EventFlags.o: \
+ mbed-os/rtos/source/EventFlags.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/rtos/include/rtos/EventFlags.h \
  mbed-os/rtos/include/rtos/Kernel.h \
  mbed-os/rtos/include/rtos/mbed_rtos_types.h \

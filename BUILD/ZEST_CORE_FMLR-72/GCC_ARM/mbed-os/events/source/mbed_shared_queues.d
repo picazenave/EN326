@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\events\source\mbed_shared_queues.o: \
- mbed-os\events\source\mbed_shared_queues.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/events/source/mbed_shared_queues.o: \
+ mbed-os/events/source/mbed_shared_queues.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/events/include/events/mbed_shared_queues.h \
  mbed-os/events/include/events/EventQueue.h \
  mbed-os/events/include/events/equeue.h \

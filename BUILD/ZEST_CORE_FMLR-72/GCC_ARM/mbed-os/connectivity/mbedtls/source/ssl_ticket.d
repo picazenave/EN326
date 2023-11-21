@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\mbedtls\source\ssl_ticket.o: \
- mbed-os\connectivity\mbedtls\source\ssl_ticket.c \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/connectivity/mbedtls/source/ssl_ticket.o: \
+ mbed-os/connectivity/mbedtls/source/ssl_ticket.c \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/connectivity/mbedtls/include/mbedtls/common.h \
  mbed-os/connectivity/mbedtls/include/mbedtls/config.h \
  mbed-os/connectivity/mbedtls/platform/inc/platform_mbed.h \

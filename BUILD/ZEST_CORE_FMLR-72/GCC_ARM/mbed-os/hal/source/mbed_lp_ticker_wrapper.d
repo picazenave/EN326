@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\hal\source\mbed_lp_ticker_wrapper.o: \
- mbed-os\hal\source\mbed_lp_ticker_wrapper.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/hal/source/mbed_lp_ticker_wrapper.o: \
+ mbed-os/hal/source/mbed_lp_ticker_wrapper.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/hal/include/hal/mbed_lp_ticker_wrapper.h \
  mbed-os/targets/TARGET_STM/device.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/objects.h \

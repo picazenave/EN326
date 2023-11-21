@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\drivers\usb\source\USBDevice.o: \
- mbed-os\drivers\usb\source\USBDevice.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/drivers/usb/source/USBDevice.o: \
+ mbed-os/drivers/usb/source/USBDevice.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/drivers/usb/include/usb/internal/USBDevice.h \
  mbed-os/drivers/usb/include/usb/internal/USBDevice_Types.h \
  mbed-os/hal/usb/include/usb/USBPhy.h \

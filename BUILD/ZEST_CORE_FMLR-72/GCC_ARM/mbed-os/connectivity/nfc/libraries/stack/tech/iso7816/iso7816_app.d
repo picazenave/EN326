@@ -1,7 +1,7 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\nfc\libraries\stack\tech\iso7816\iso7816_app.o: \
- mbed-os\connectivity\nfc\libraries\stack\tech\iso7816\iso7816_app.c \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
- mbed-os\connectivity\nfc\libraries\stack\tech\iso7816\iso7816_app.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/connectivity/nfc/libraries/stack/tech/iso7816/iso7816_app.o: \
+ mbed-os/connectivity/nfc/libraries/stack/tech/iso7816/iso7816_app.c \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
+ mbed-os/connectivity/nfc/libraries/stack/tech/iso7816/iso7816_app.h \
  mbed-os/connectivity/nfc/libraries/stack/nfc_common.h \
  mbed-os/connectivity/nfc/libraries/stack/nfc_errors.h \
  mbed-os/connectivity/nfc/libraries/stack/platform/nfc_debug.h \
@@ -10,7 +10,7 @@ BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\nfc\libraries\stack\tech\is
  mbed-os/connectivity/nfc/libraries/acore/acore/ac_buffer_reader.h \
  mbed-os/connectivity/nfc/libraries/acore/acore/ac_buffer_builder.h \
  mbed-os/connectivity/nfc/libraries/acore/acore/ac_stream.h \
- mbed-os\connectivity\nfc\libraries\stack\tech\iso7816\iso7816.h \
+ mbed-os/connectivity/nfc/libraries/stack/tech/iso7816/iso7816.h \
  mbed-os/connectivity/nfc/libraries/stack/transceiver/protocols.h \
  mbed-os/connectivity/nfc/libraries/stack/tech/isodep/isodep_target.h \
  mbed-os/connectivity/nfc/libraries/stack/transceiver/transceiver.h \

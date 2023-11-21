@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\storage\kvstore\securestore\source\SecureStore.o: \
- mbed-os\storage\kvstore\securestore\source\SecureStore.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/storage/kvstore/securestore/source/SecureStore.o: \
+ mbed-os/storage/kvstore/securestore/source/SecureStore.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/storage/kvstore/securestore/include/securestore/SecureStore.h \
  mbed-os/connectivity/mbedtls/include/mbedtls/config.h \
  mbed-os/connectivity/mbedtls/platform/inc/platform_mbed.h \

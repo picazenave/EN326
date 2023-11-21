@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\lwipstack\lwip\src\netif\lwip_lowpan6.o: \
- mbed-os\connectivity\lwipstack\lwip\src\netif\lwip_lowpan6.c \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/connectivity/lwipstack/lwip/src/netif/lwip_lowpan6.o: \
+ mbed-os/connectivity/lwipstack/lwip/src/netif/lwip_lowpan6.c \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/connectivity/lwipstack/lwip/src/include/netif/lowpan6.h \
  mbed-os/connectivity/lwipstack/lwip/src/include/netif/lowpan6_opts.h \
  mbed-os/connectivity/lwipstack/lwip/src/include/lwip/opt.h \

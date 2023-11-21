@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\storage\kvstore\kv_config\source\kv_config.o: \
- mbed-os\storage\kvstore\kv_config\source\kv_config.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/storage/kvstore/kv_config/source/kv_config.o: \
+ mbed-os/storage/kvstore/kv_config/source/kv_config.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/storage/kvstore/kv_config/include/kv_config/kv_config.h \
  mbed-os/storage/blockdevice/include/blockdevice/BlockDevice.h \
  mbed-os/storage/kvstore/include/kvstore/KVStore.h \

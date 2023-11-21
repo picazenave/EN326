@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\storage\platform\source\PlatformStorage.o: \
- mbed-os\storage\platform\source\PlatformStorage.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/storage/platform/source/PlatformStorage.o: \
+ mbed-os/storage/platform/source/PlatformStorage.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/storage/blockdevice/include/blockdevice/BlockDevice.h \
  mbed-os/storage/filesystem/include/filesystem/FileSystem.h \
  mbed-os/platform/include/platform/platform.h \

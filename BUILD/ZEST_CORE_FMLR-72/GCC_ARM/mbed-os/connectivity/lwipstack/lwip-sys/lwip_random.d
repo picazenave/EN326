@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\lwipstack\lwip-sys\lwip_random.o: \
- mbed-os\connectivity\lwipstack\lwip-sys\lwip_random.c \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/connectivity/lwipstack/lwip-sys/lwip_random.o: \
+ mbed-os/connectivity/lwipstack/lwip-sys/lwip_random.c \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/connectivity/lwipstack/lwip/src/include/lwip/opt.h \
  mbed-os/connectivity/lwipstack/include/lwipstack/lwipopts.h \
  mbed-os/connectivity/netsocket/include/netsocket/nsapi_types.h \
@@ -75,5 +75,5 @@ BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\lwipstack\lwip-sys\lwip_ran
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/STM32Cube_FW/STM32L0xx_HAL_Driver/stm32l0xx_ll_usb.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/TARGET_STM32L071xZ/cmsis_nvic.h \
  mbed-os/connectivity/lwipstack/lwip/src/include/lwip/def.h \
- mbed-os\connectivity\lwipstack\lwip-sys\lwip_random.h \
+ mbed-os/connectivity/lwipstack/lwip-sys/lwip_random.h \
  mbed-os/platform/randlib/include/mbed-client-randlib/randLIB.h

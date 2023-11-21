@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\storage\kvstore\kvstore_global_api\source\kvstore_global_api.o: \
- mbed-os\storage\kvstore\kvstore_global_api\source\kvstore_global_api.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/storage/kvstore/kvstore_global_api/source/kvstore_global_api.o: \
+ mbed-os/storage/kvstore/kvstore_global_api/source/kvstore_global_api.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/storage/kvstore/kvstore_global_api/include/kvstore_global_api/kvstore_global_api.h \
  mbed-os/storage/kvstore/kv_config/include/kv_config/kv_config.h \
  mbed-os/storage/blockdevice/include/blockdevice/BlockDevice.h \

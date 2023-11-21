@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\lwipstack\lwip\src\netif\lwip_bridgeif_fdb.o: \
- mbed-os\connectivity\lwipstack\lwip\src\netif\lwip_bridgeif_fdb.c \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/connectivity/lwipstack/lwip/src/netif/lwip_bridgeif_fdb.o: \
+ mbed-os/connectivity/lwipstack/lwip/src/netif/lwip_bridgeif_fdb.c \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/connectivity/lwipstack/lwip/src/include/netif/bridgeif.h \
  mbed-os/connectivity/lwipstack/lwip/src/include/netif/bridgeif_opts.h \
  mbed-os/connectivity/lwipstack/lwip/src/include/lwip/opt.h \

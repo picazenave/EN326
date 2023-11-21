@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\storage\blockdevice\source\ExhaustibleBlockDevice.o: \
- mbed-os\storage\blockdevice\source\ExhaustibleBlockDevice.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/storage/blockdevice/source/ExhaustibleBlockDevice.o: \
+ mbed-os/storage/blockdevice/source/ExhaustibleBlockDevice.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/storage/blockdevice/include/blockdevice/ExhaustibleBlockDevice.h \
  mbed-os/storage/blockdevice/include/blockdevice/BlockDevice.h \
  mbed-os/platform/include/platform/mbed_atomic.h \

@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\netsocket\source\DTLSSocket.o: \
- mbed-os\connectivity\netsocket\source\DTLSSocket.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/connectivity/netsocket/source/DTLSSocket.o: \
+ mbed-os/connectivity/netsocket/source/DTLSSocket.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/connectivity/netsocket/include/netsocket/DTLSSocket.h \
  mbed-os/connectivity/netsocket/include/netsocket/DTLSSocketWrapper.h \
  mbed-os/connectivity/netsocket/include/netsocket/TLSSocketWrapper.h \

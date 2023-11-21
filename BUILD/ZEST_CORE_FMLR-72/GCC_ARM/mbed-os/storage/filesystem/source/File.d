@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\storage\filesystem\source\File.o: \
- mbed-os\storage\filesystem\source\File.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/storage/filesystem/source/File.o: \
+ mbed-os/storage/filesystem/source/File.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/storage/filesystem/include/filesystem/File.h \
  mbed-os/storage/filesystem/include/filesystem/FileSystem.h \
  mbed-os/platform/include/platform/platform.h \

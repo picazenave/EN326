@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\storage\kvstore\direct_access_devicekey\source\DirectAccessDevicekey.o: \
- mbed-os\storage\kvstore\direct_access_devicekey\source\DirectAccessDevicekey.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/storage/kvstore/direct_access_devicekey/source/DirectAccessDevicekey.o: \
+ mbed-os/storage/kvstore/direct_access_devicekey/source/DirectAccessDevicekey.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/storage/kvstore/direct_access_devicekey/include/direct_access_devicekey/DirectAccessDevicekey.h \
  mbed-os/drivers/include/drivers/FlashIAP.h \
  mbed-os/hal/include/hal/flash_api.h mbed-os/targets/TARGET_STM/device.h \

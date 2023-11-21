@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\drivers\source\Ticker.o: \
- mbed-os\drivers\source\Ticker.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/drivers/source/Ticker.o: \
+ mbed-os/drivers/source/Ticker.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/drivers/include/drivers/Ticker.h \
  mbed-os/platform/cxxsupport/mstd_utility \
  mbed-os/drivers/include/drivers/TickerDataClock.h \

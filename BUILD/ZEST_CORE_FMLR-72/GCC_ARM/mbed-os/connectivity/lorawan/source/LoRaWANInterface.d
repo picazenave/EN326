@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\lorawan\source\LoRaWANInterface.o: \
- mbed-os\connectivity\lorawan\source\LoRaWANInterface.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/connectivity/lorawan/source/LoRaWANInterface.o: \
+ mbed-os/connectivity/lorawan/source/LoRaWANInterface.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/connectivity/lorawan/include/lorawan/LoRaWANInterface.h \
  mbed-os/platform/include/platform/Callback.h \
  mbed-os/platform/cxxsupport/mstd_cstddef \

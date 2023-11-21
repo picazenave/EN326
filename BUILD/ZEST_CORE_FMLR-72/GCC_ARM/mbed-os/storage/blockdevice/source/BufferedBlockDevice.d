@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\storage\blockdevice\source\BufferedBlockDevice.o: \
- mbed-os\storage\blockdevice\source\BufferedBlockDevice.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/storage/blockdevice/source/BufferedBlockDevice.o: \
+ mbed-os/storage/blockdevice/source/BufferedBlockDevice.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/storage/blockdevice/include/blockdevice/BufferedBlockDevice.h \
  mbed-os/storage/blockdevice/include/blockdevice/BlockDevice.h \
  mbed-os/platform/include/platform/mbed_assert.h \

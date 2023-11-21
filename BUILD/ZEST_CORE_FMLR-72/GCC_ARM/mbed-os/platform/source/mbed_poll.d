@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\platform\source\mbed_poll.o: \
- mbed-os\platform\source\mbed_poll.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/platform/source/mbed_poll.o: \
+ mbed-os/platform/source/mbed_poll.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/platform/include/platform/mbed_poll.h \
  mbed-os/platform/include/platform/FileHandle.h \
  mbed-os/platform/include/platform/Callback.h \

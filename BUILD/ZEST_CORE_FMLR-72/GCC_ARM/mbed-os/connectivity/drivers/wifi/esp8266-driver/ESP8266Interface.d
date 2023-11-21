@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\drivers\wifi\esp8266-driver\ESP8266Interface.o: \
- mbed-os\connectivity\drivers\wifi\esp8266-driver\ESP8266Interface.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/connectivity/drivers/wifi/esp8266-driver/ESP8266Interface.o: \
+ mbed-os/connectivity/drivers/wifi/esp8266-driver/ESP8266Interface.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/connectivity/drivers/wifi/esp8266-driver/ESP8266/ESP8266.h \
  mbed-os/drivers/include/drivers/BufferedSerial.h \
  mbed-os/platform/include/platform/platform.h \
@@ -144,13 +144,13 @@ BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\drivers\wifi\esp8266-driver
  mbed-os/rtos/include/rtos/ThisThread.h \
  mbed-os/connectivity/netsocket/include/netsocket/SocketAddress.h \
  mbed-os/connectivity/netsocket/include/netsocket/nsapi_types.h \
- mbed-os\connectivity\drivers\wifi\esp8266-driver\ESP8266Interface.h \
+ mbed-os/connectivity/drivers/wifi/esp8266-driver/ESP8266Interface.h \
  mbed-os/drivers/include/drivers/DigitalOut.h \
  mbed-os/drivers/include/drivers/interfaces/InterfaceDigitalOut.h \
  mbed-os/drivers/include/drivers/Timer.h \
  mbed-os/drivers/include/drivers/TickerDataClock.h \
  mbed-os/hal/include/hal/ticker_api.h \
- mbed-os\connectivity\drivers\wifi\esp8266-driver\ESP8266/ESP8266.h \
+ mbed-os/connectivity/drivers/wifi/esp8266-driver/ESP8266/ESP8266.h \
  mbed-os/events/include/events/EventQueue.h \
  mbed-os/events/include/events/equeue.h \
  mbed-os/events/include/events/internal/equeue_platform.h \

@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\hal\source\mbed_pinmap_common.o: \
- mbed-os\hal\source\mbed_pinmap_common.c \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/hal/source/mbed_pinmap_common.o: \
+ mbed-os/hal/source/mbed_pinmap_common.c \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/hal/include/hal/pinmap.h \
  mbed_zest-core-fmlr-72/TARGET_ZEST_CORE_FMLR-72/PinNames.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/cmsis.h \

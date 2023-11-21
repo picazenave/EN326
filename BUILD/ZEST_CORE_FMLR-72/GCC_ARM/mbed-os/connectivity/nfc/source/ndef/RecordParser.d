@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\nfc\source\ndef\RecordParser.o: \
- mbed-os\connectivity\nfc\source\ndef\RecordParser.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/connectivity/nfc/source/ndef/RecordParser.o: \
+ mbed-os/connectivity/nfc/source/ndef/RecordParser.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/connectivity/nfc/include/nfc/ndef/RecordParser.h \
  mbed-os/connectivity/nfc/include/nfc/ndef/Record.h \
  mbed-os/platform/include/platform/Span.h \

@@ -1,7 +1,7 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\nfc\libraries\stack\tech\isodep\isodep_target.o: \
- mbed-os\connectivity\nfc\libraries\stack\tech\isodep\isodep_target.c \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
- mbed-os\connectivity\nfc\libraries\stack\tech\isodep\isodep_target.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/connectivity/nfc/libraries/stack/tech/isodep/isodep_target.o: \
+ mbed-os/connectivity/nfc/libraries/stack/tech/isodep/isodep_target.c \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
+ mbed-os/connectivity/nfc/libraries/stack/tech/isodep/isodep_target.h \
  mbed-os/connectivity/nfc/libraries/stack/nfc_common.h \
  mbed-os/connectivity/nfc/libraries/stack/nfc_errors.h \
  mbed-os/connectivity/nfc/libraries/stack/platform/nfc_debug.h \
@@ -14,5 +14,5 @@ BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\nfc\libraries\stack\tech\is
  mbed-os/connectivity/nfc/libraries/stack/transceiver/protocols.h \
  mbed-os/connectivity/nfc/libraries/stack/platform/nfc_transport.h \
  mbed-os/connectivity/nfc/libraries/stack/platform/nfc_scheduler.h \
- mbed-os\connectivity\nfc\libraries\stack\tech\isodep\isodep.h \
+ mbed-os/connectivity/nfc/libraries/stack/tech/isodep/isodep.h \
  mbed-os/connectivity/nfc/libraries/stack/nfc_errors.h

@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\storage\kvstore\filesystemstore\source\FileSystemStore.o: \
- mbed-os\storage\kvstore\filesystemstore\source\FileSystemStore.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/storage/kvstore/filesystemstore/source/FileSystemStore.o: \
+ mbed-os/storage/kvstore/filesystemstore/source/FileSystemStore.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/storage/kvstore/filesystemstore/include/filesystemstore/FileSystemStore.h \
  mbed-os/storage/kvstore/include/kvstore/KVStore.h \
  mbed-os/storage/filesystem/include/filesystem/FileSystem.h \

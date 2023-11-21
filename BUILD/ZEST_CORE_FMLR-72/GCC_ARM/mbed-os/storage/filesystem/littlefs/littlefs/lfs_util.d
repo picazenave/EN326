@@ -1,7 +1,7 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\storage\filesystem\littlefs\littlefs\lfs_util.o: \
- mbed-os\storage\filesystem\littlefs\littlefs\lfs_util.c \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
- mbed-os\storage\filesystem\littlefs\littlefs\lfs_util.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/storage/filesystem/littlefs/littlefs/lfs_util.o: \
+ mbed-os/storage/filesystem/littlefs/littlefs/lfs_util.c \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
+ mbed-os/storage/filesystem/littlefs/littlefs/lfs_util.h \
  mbed-os/platform/include/platform/mbed_debug.h \
  mbed-os/platform/include/platform/mbed_toolchain.h \
  mbed-os/platform/include/platform/mbed_preprocessor.h \

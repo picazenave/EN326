@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\targets\TARGET_STM\i2c_api.o: \
- mbed-os\targets\TARGET_STM\i2c_api.c \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/targets/TARGET_STM/i2c_api.o: \
+ mbed-os/targets/TARGET_STM/i2c_api.c \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/platform/include/platform/mbed_assert.h \
  mbed-os/platform/include/platform/mbed_toolchain.h \
  mbed-os/platform/include/platform/mbed_preprocessor.h \
@@ -93,7 +93,7 @@ BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\targets\TARGET_STM\i2c_api.o: \
  mbed-os/platform/include/platform/internal/mbed_atomic_impl.h \
  mbed-os/platform/include/platform/mbed_assert.h \
  mbed-os/hal/include/hal/pinmap.h \
- mbed-os\targets\TARGET_STM\PeripheralPins.h \
+ mbed-os/targets/TARGET_STM/PeripheralPins.h \
  mbed-os/platform/include/platform/mbed_error.h \
  mbed-os/platform/include/platform/mbed_retarget.h \
  mbed-os/platform/include/platform/mbed_power_mgmt.h \

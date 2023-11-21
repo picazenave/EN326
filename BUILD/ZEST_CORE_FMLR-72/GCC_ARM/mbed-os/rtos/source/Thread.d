@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\rtos\source\Thread.o: \
- mbed-os\rtos\source\Thread.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/rtos/source/Thread.o: \
+ mbed-os/rtos/source/Thread.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/rtos/include/rtos/Thread.h \
  mbed-os/rtos/include/rtos/mbed_rtos_types.h \
  mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/Include/cmsis_os2.h \
@@ -31,8 +31,8 @@ BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\rtos\source\Thread.o: \
  mbed-os/rtos/include/rtos/Semaphore.h mbed-os/rtos/include/rtos/Kernel.h \
  mbed-os/rtos/include/rtos/Mutex.h \
  mbed-os/platform/include/platform/ScopedLock.h \
- mbed-os/rtos/include/rtos/ThisThread.h mbed-os\rtos\source\rtos_idle.h \
+ mbed-os/rtos/include/rtos/ThisThread.h mbed-os/rtos/source/rtos_idle.h \
  mbed-os/platform/include/platform/mbed_toolchain.h \
- mbed-os\rtos\source\rtos_handlers.h \
+ mbed-os/rtos/source/rtos_handlers.h \
  mbed-os/platform/include/platform/mbed_error.h \
  mbed-os/platform/include/platform/mbed_retarget.h

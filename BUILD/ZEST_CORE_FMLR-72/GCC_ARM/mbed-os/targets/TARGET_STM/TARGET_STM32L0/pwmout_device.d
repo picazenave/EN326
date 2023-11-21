@@ -1,7 +1,7 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\targets\TARGET_STM\TARGET_STM32L0\pwmout_device.o: \
- mbed-os\targets\TARGET_STM\TARGET_STM32L0\pwmout_device.c \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
- mbed-os\targets\TARGET_STM\TARGET_STM32L0\cmsis.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/targets/TARGET_STM/TARGET_STM32L0/pwmout_device.o: \
+ mbed-os/targets/TARGET_STM/TARGET_STM32L0/pwmout_device.c \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
+ mbed-os/targets/TARGET_STM/TARGET_STM32L0/cmsis.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/STM32Cube_FW/CMSIS/stm32l0xx.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/STM32Cube_FW/CMSIS/stm32l071xx.h \
  mbed-os/cmsis/CMSIS_5/CMSIS/TARGET_CORTEX_M/Include/core_cm0plus.h \
@@ -64,7 +64,6 @@ BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\targets\TARGET_STM\TARGET_STM32L0\pwmout
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/TARGET_STM32L071xZ/cmsis_nvic.h \
  mbed-os/hal/include/hal/pwmout_api.h mbed-os/targets/TARGET_STM/device.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/objects.h \
- mbed-os/targets/TARGET_STM/TARGET_STM32L0/cmsis.h \
  mbed-os/targets/TARGET_STM/PortNames.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/PeripheralNames.h \
  mbed_zest-core-fmlr-72/TARGET_ZEST_CORE_FMLR-72/PinNames.h \
@@ -88,4 +87,4 @@ BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\targets\TARGET_STM\TARGET_STM32L0\pwmout
  mbed-os/targets/TARGET_STM/TARGET_STM32L0/us_ticker_data.h \
  mbed-os/targets/TARGET_STM/lp_ticker_defines.h \
  mbed-os/hal/include/hal/pinmap.h \
- mbed-os\targets\TARGET_STM\TARGET_STM32L0\pwmout_device.h
+ mbed-os/targets/TARGET_STM/TARGET_STM32L0/pwmout_device.h

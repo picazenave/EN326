@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\connectivity\netsocket\source\TLSSocketWrapper.o: \
- mbed-os\connectivity\netsocket\source\TLSSocketWrapper.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/connectivity/netsocket/source/TLSSocketWrapper.o: \
+ mbed-os/connectivity/netsocket/source/TLSSocketWrapper.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/connectivity/netsocket/include/netsocket/TLSSocketWrapper.h \
  mbed-os/connectivity/netsocket/include/netsocket/Socket.h \
  mbed-os/connectivity/netsocket/include/netsocket/SocketAddress.h \

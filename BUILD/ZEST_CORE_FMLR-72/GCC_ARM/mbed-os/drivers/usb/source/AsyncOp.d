@@ -1,6 +1,6 @@
-BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed-os\drivers\usb\source\AsyncOp.o: \
- mbed-os\drivers\usb\source\AsyncOp.cpp \
- BUILD\ZEST_CORE_FMLR-72\GCC_ARM\mbed_config.h \
+BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed-os/drivers/usb/source/AsyncOp.o: \
+ mbed-os/drivers/usb/source/AsyncOp.cpp \
+ BUILD/ZEST_CORE_FMLR-72/GCC_ARM/mbed_config.h \
  mbed-os/drivers/usb/include/usb/internal/AsyncOp.h \
  mbed-os/rtos/include/rtos/Mutex.h \
  mbed-os/rtos/include/rtos/mbed_rtos_types.h \
