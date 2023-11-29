@@ -9,6 +9,7 @@
 #include "events/EventQueue.h"
 #include "main.hpp"
 
+// #include "mbed_zest-core-fmlr-72/TARGET_ZEST_CORE_FMLR-72/PinNames.h"
 /*
  * Sets up an application dependent transmission timer in ms. Used only when Duty Cycling is off for testing
  */
@@ -35,9 +36,8 @@
 class lora_app
 {
 private:
-    /* data */
+    lorawan_status_t retcode;
 public:
-
     lora_app();
     void init();
     void dispatch_queue_forever();

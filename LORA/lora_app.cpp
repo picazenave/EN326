@@ -4,8 +4,7 @@ static void lora_event_handler(lorawan_event_t event);
 // static void send_message();
 // static void receive_message();
 
-lorawan_status_t retcode;
-SX1272_LoRaRadio radio(LORA_MOSI, LORA_MISO, LORA_SCK, LORA_CS, LORA_RESET, LORA_DIO0, LORA_DIO1, LORA_DIO2, LORA_DIO3, LORA_DIO4, LORA_DIO5, LORA_ANTSW_PWR);
+SX1272_LoRaRadio radio(LORA_MOSI, LORA_MISO, LORA_SCK, LORA_CS, LORA_RESET, LORA_DIO0, LORA_DIO1, LORA_DIO2, LORA_DIO3, LORA_DIO4, LORA_DIO5);
 LoRaWANInterface lorawan(radio);
 
 // Max payload size can be LORAMAC_PHY_MAXPAYLOAD.

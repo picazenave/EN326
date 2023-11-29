@@ -39,9 +39,9 @@ void led_thread_func()
         led_thread_counter++;
         if (led_thread_counter == 21) // make measurement every 5250ms
         {
-            led_thread_counter=0;
+            led_thread_counter = 0;
             SCD4::ErrorType error;
-            do//retry if not valid
+            do // retry if not valid
             {
                 error = scd4.read_measurement(&data);
                 if (error != SCD4::ErrorType::Ok)
@@ -49,7 +49,7 @@ void led_thread_func()
                     printf("ERRRRRROR read measurement I2C\n");
                 }
                 ThisThread::sleep_for(50ms);
-            }while (data.rh < 1 || data.co2 < 100);
+            } while (data.rh < 1 || data.co2 < 100);
             printf("-- CO2 ppm:%d|temp:%f °C|RH:%f %%\n", data.co2, data.temperature, data.rh);
         }
     }
@@ -57,10 +57,9 @@ void led_thread_func()
 
 int main()
 {
-    printf("\n\n\n\n\n\n\n\n\n\n\n");
-    DigitalOut ant_pin(LORA_ANTSW_PWR, 1);
+    DigitalOut _pin(LORA_ANTSW_PWR, 1);
+    printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
     printf("LORA_ANTSW_PWR set to 1\n");
-
 
     SCD4::ErrorType error;
     error = scd4.start_periodic_measurement();
