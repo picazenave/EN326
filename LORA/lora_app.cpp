@@ -119,7 +119,6 @@ void lora_app::disconnect()
 }
 
 extern scd4x_measurement_t data;
-extern SCD4 scd4;
 /**
  * Sends a message to the Network Server
  */
@@ -127,18 +126,6 @@ void lora_app::send_message()
 {
     uint16_t packet_len;
     int16_t retcode;
-
-    while (abs(data.temperature + 45) < 1 || data.rh < 1 || data.co2 < 100)
-    {
-        SCD4::ErrorType error;
-        error = scd4.read_measurement(&data);
-        if (error != SCD4::ErrorType::Ok)
-        {
-            printf("ERRRRRROR read measurement I2C\n");
-        }
-        printf("-- CO2 ppm:%d|temp:%f °C|RH:%f %%\n", data.co2, data.temperature, data.rh);
-    }
-    printf("\r\nSensor Value = %f \r\n", data.temperature);
 
     packet_len = sprintf((char *)tx_buffer, "{\"T\":%f,\"H\":%f,\"C02\":%d}",
                          data.temperature, data.rh, data.co2);
